@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagels</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.html">
+                <img src="img/logo56.svg" alt="logo">
+            </a>
+            <div class="menu">
+                    <a href="#trending">Trending</a>
+    
+                    <a href="#collection">Collection</a>
+
+                    <a href="#testimonials">Testimonials</a>
+
+                    <a href="#contact-us">Contact us</a>
+
+                    <a href="#gallery">Gallery</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="new-collection">
+            <div class="item">
+
+                <div class="item-img">
+                    <img src="img/ear-1.png" alt="">
+                </div>
+
+                <div class="item-stock">
+                    <h2>In stock</h2>
+                </div>
+
+                <div class="item-name">
+                    <h3>Bagels</h3>
+                </div>
+
+                <div class="item-code">
+                    <p>Product code 18</p>
+                </div>
+
+                <div class="item-price">
+                    <p>$199,00</p>
+                </div>
+
+                <div class="number-scroll">
+                    <form action="/action_page.php">
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </form>
+                </div>
+
+                <div class="new-collectio-button">
+                    <button> —  Add to cart</button>
+                </div>
+
+                <div class="new-collection-description"></div>
+                    <p>Description</p>
+                        <div class="description-p">
+                            <p>Stylish and lightweight gold earrings of medium length. They will look really nice both with office and casual styles.</p>
+                        </div>  
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
