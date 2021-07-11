@@ -58,7 +58,7 @@ nav {
     width: 95px;
 }
 header{
-    background-image: url(img/banner.webp);
+    background-image: url(../img/banner.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
