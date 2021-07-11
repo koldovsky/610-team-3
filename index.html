@@ -7,48 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jewelry Store</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a class="logo" href="index.html">
-                <img src="img/logo.svg" alt="logo">
-            </a>
-            <div class="menu">
-                <a href="#trending">Trending</a>
-                <a href="#collection">Collection</a>
-                <a href="#testimonials">Testimonials</a>
-                <a href="#contact-us">Contact us</a>
-                <a href="#gallery">Gallery</a>
-            </div>
-        </nav>
-        <!-- Section _Banner_ -->
+    <a class="logo" href="index.html">
+        <img src="img/logo.svg" alt="logo">
+    </a>
+    <div class="menu">
+        <a href="#trending">Trending</a>
+        <a href="#collection">Collection</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact-us">Contact us</a>
+        <a href="#gallery">Gallery</a>
+    </div>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    </nav>
+    <!-- Section _Banner_ -->
+    <div class="banner-grid">
         <div class="banner">
             <h1>Jewelry</h1>
-            <p>Shine Bright With Aurora.</p>
+            <h2>Shine Bright With Aurora <span>.</span></h2>
             <p>Every day is your special day with our fine jewelry!</p>
-            <a href="#new-collection" class="shop-button">Shop</a>
+            <a href="#new-collection" class="shop-button">— Shop</a>
         </div>
+        <div></div>
+        <div></div>
+    </div>
     </header>
-    <main>
+    <main class="container">
         <!-- Section _Description_ -->
         <section id="description">
-            <div>
+            <div class="description-column">
                 <img src="img/description/gems-and-natural-stones.svg" alt="gems-and-stones">
-                <h2>Gems and Natural Stones</h2>
+                <h3>Gems and Natural Stones</h3>
+                <div class="line"></div>
                 <p>We use precious and semi-precious stones: diamonds, emeralds, sapphires, etc. and also work with
                     Swarovski crystals.</p>
             </div>
-            <div>
+            <div class="description-column">
                 <img src="img/description/gold.svg" alt="gold">
-                <h2>585 Gold</h2>
+                <h3>585 Gold</h3>
                 <p>Our fine jewelry will never darken or wear off. With proper care, you can wear it for 50+ years and
                     pass it to your heirs!</p>
             </div>
-            <div>
+            <div class="description-column">
                 <img src="img/description/designer-collection.svg" alt="designer-collection">
-                <h2>Designer Collections</h2>
+                <h3>Designer Collections</h3>
                 <p>We create exquisite fine jewelry. Each collection has a soul and a certain message that resonates in
                     the hearts of our customers.</p>
             </div>
@@ -417,9 +426,7 @@
                     </p>
                 </div>
                 <div class="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.5434269054056!2d-73.9602325552346!3d40.7646955091282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e9dae3362d%3A0x6b1cdaeb9903ed6d!2zMzEwIEUgNjd0aCBTdCwgTmV3IFlvcmssIE5ZIDEwMDY1LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1625584816416!5m2!1sru!2sua"
-                        width="550" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.5434269054056!2d-73.9602325552346!3d40.7646955091282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e9dae3362d%3A0x6b1cdaeb9903ed6d!2zMzEwIEUgNjd0aCBTdCwgTmV3IFlvcmssIE5ZIDEwMDY1LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1625584816416!5m2!1sru!2sua" width="550" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
             <div class="contact-form">
@@ -465,8 +472,8 @@
                 <a href="#testimonials">Testimonials</a><br>
                 <a href="#contact-us">Contacts</a>
             </div>
-            <div class="menu_address"> 
-            <h4>GET IN TOUCH</h4>
+            <div class="menu_address">
+                <h4>GET IN TOUCH</h4>
                 <address>
                     aurora@email.com<br>
                     +1 (234) 567 89 00<br>
