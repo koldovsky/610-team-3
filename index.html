@@ -412,31 +412,46 @@
         <section id="contact-us">
             <div class="contacts-and-map">
                 <div class="contacts">
-                    <h2>Contacts</h2>
-                    <p>Feel free to contact us for any business, media, or personal inquiries:</p>
-                    <h3>Address</h3>
-                    <address>
-                        3611 Silas Trail Suite 927<br>
-                        Port Yasmeenland, PY 20061
-                    </address>
-                    <h3>Hours</h3>
-                    <p>Monday - Saturday: 11 AM - 9 PM
-                        Sunday: 11 AM - 7 PM</p>
-                    <h3>Contacts</h3>
-                    <p><a href="mailto:aurora@email.com">aurora@email.com</a>
-                        <a href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
-                    </p>
+                    <div class="contacts-title">
+                        <h3>Contacts</h3>
+                        <p>Feel free to contact us for any business, media, or personal inquiries:</p>
+                    </div>
+                    <div class="address">
+                        <h4>Address</h4>
+                        <address>
+                            3611 Silas Trail Suite 927<br>
+                            Port Yasmeenland, PY 20061
+                        </address>
+                    </div>
+                    <div class="hours">
+                        <h4>Hours</h4>
+                        <p>Monday - Saturday: 11 AM - 9 PM
+                            Sunday: 11 AM - 7 PM</p>
+                    </div>
+                    <div class="mail-tel">
+                        <h4>Contacts</h4>
+                        <p><a href="mailto:aurora@email.com">aurora@email.com</a>
+                            <a href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
+                        </p>
+                    </div>
                 </div>
                 <div class="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.5434269054056!2d-73.9602325552346!3d40.7646955091282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e9dae3362d%3A0x6b1cdaeb9903ed6d!2zMzEwIEUgNjd0aCBTdCwgTmV3IFlvcmssIE5ZIDEwMDY1LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1625584816416!5m2!1sru!2sua" width="550" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
             <div class="contact-form">
-                <form id="form">
-                    <input id="name" type="text" placeholder="Enter your full name" required>
-                    <input id="email" type="text" placeholder="Enter your phone number" required>
-                    <input id="you-e-mail" type="text" placeholder="Enter your e-mail" required>
-                    <textarea id="message" placeholder="Message"></textarea>
+                <p>Send your message</p>
+                <form action="" method="POST">
+                    <label>
+                        <input id="name" type="text" placeholder="Enter your full name" required>
+                    </label>
+                    <label>
+                        <input id="email" type="text" placeholder="Enter your phone number" required>
+                    </label>
+                    <label>
+                        <input id="you-e-mail" type="text" placeholder="Enter your e-mail" required>
+                    </label>
+                    <textarea id="message" placeholder="Message" rows="10" cols="40"></textarea>
                     <input id="submit" type="submit" value="submit">
                 </form>
             </div>
