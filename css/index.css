@@ -1,79 +1,142 @@
-@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');/*font-family: 'Montserrat', sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sorts+Mill+Goudy&display=swap'); /*font-family: 'Sorts Mill Goudy', serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sorts+Mill+Goudy:ital@1&display=swap'); /*italic  font-family: 'Sorts Mill Goudy', serif;
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sorts+Mill+Goudy&display=swap');
+/*font-family: 'Sorts Mill Goudy', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sorts+Mill+Goudy:ital@1&display=swap');
+/*italic  font-family: 'Sorts Mill Goudy', serif;
 font-style: italic;*/
 
 /*null-style*/
-*{
-	padding: 0;
-	margin: 0;
-	border: 0;
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
-*,*:before,*:after{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
-nav,footer,header,aside{display: block;}
-html,body{
-	height: 100%;
-	width: 100%;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+
+:focus,
+:active {
+    outline: none;
 }
-input,button,textarea{font-family:inherit;}
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding:0;border:0;}
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
 /*--------------------*/
 
 :root {
-    --light-shade--:#FFF;
+    --light-shade--: #FFF;
     --dark-shade--: #051F34;
     --main-brand-color--: #E0C0B0;
     --first-accent--: #F6F4F2;
     --second-accent--: #D9B5A1;
 }
+
 body {
     background-color: var(--first-accent--);
 }
-.container,{
-    max-width: 1300px;
-    margin: 0 auto;
-}
+
+/*header*/
 nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 30px;
 }
- nav .menu{
-     display: block;
- } 
- .menu a {
-     text-decoration: none;
-     padding: 5px;
-     color: var(--dark-shade--);
-     font-size: medium;
-     font-family: 'Montserrat', sans-serif;
-     font-weight: 400;   
- }
- .burger{
+
+nav .menu {
+    display: block;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 5px;
+    color: var(--dark-shade--);
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.burger {
     display: none;
     cursor: pointer;
 }
-.burger div{
+
+.burger div {
     width: 25px;
     height: 2px;
     background-color: #051F34;
@@ -82,99 +145,117 @@ nav {
     transition: all 0.3s ease;
 }
 
-.logo img{
+.logo img {
     width: 95px;
 }
-header{
-    background-image: url(../img/banner.webp);
+
+header {
+    background-image: url(img/banner.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex: 1;
     flex-direction: column;
-    
+
 }
+
 .banner-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     flex-direction: column;
-   
+
 }
+
 header .banner {
     display: block;
     flex-direction: column;
     margin-top: 10%;
     margin-left: 8%;
 }
-header .banner h1{
+
+header .banner h1 {
     color: var(--second-accent--);
     font-size: 12px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
 }
-header .banner h2{
+
+header .banner h2 {
     color: #051F34;
     font-size: 90px;
     font-weight: normal;
     font-family: 'Sorts Mill Goudy', serif;
 }
+
 header .banner h2 span {
     color: var(--second-accent--);
 }
+
 header .banner p {
     font-family: 'Sorts Mill Goudy', serif;
     font-style: italic;
     font-size: 22px;
     color: #445665;
 }
+
 .banner .shop-button {
     background-color: var(--main-brand-color--);
     padding: 15px 20px;
     text-decoration: none;
     color: #fff;
 }
+
+/*descrption*/
 #description img {
     width: 90px;
 }
-#description .description-column h3{
+
+.description-column-2 h3 {
+    padding-bottom: 30px;
+}
+
+#description .description-column h3 {
     color: var(--dark-shade--);
     font-size: 26px;
-    
+    font-family: 'Sorts Mill Goudy', serif;
+    padding: 20px 0;
 }
-#description{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	margin: 5px 0;
+
+#description {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 50px 0;
 }
+
 .description-column {
-	flex: 1;
-	margin: 30px;
-	padding: 5px;
+    flex: 1;
+    margin: 30px;
+    padding: 5px;
     text-align: center;
+    max-width: 200px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #445665;
+    font-weight: 500;
+    font-size: 18px;
 }
-
-
-
 
 @media screen and (max-width: 1060px) {
     #description .description-column {
-		margin-bottom: 5px;
+        margin-bottom: 5px;
         flex-basis: 40%;
+        max-width: 50%;
+        box-sizing: border-box;
     }
-	&:nth-last-child(2) {
-			margin-right: 0;
-		}
-	&:last-child {
-			flex-basis: 100%;
-			margin: 0;
-	}
-    body{
+
+    body {
         overflow-x: hidden;
     }
-    nav a{
+
+    nav a {
         position: absolute;
         right: 0px;
         height: 92vh;
@@ -187,70 +268,140 @@ header .banner p {
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
-     .burger{
-         display: block;
-         
-     }
+
+    .burger {
+        display: block;
+    }
 }
 
-						/*	Beauty-section*/
+@media screen and (max-width: 680px) {
+    #description .description-column {
+        flex-basis: 100%;
+        margin: 0 0 5px 0;
+        max-width: 100%;
+    }
+}
+
+/* contacts*/
+#contact-us {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.contacts-and-map,
+.contact-form {
+    flex: 1;
+    margin: 30px;
+    padding: 5px;
+    text-align: left;
+}
+
+.contact-form {
+    background-color: #e2ded9;
+    margin-bottom: 16px;
+}
+
+.contact-form label {
+    display: block;
+}
+
+.contact-form input {
+    display: inline-block;
+    text-align: start;
+}
+
+.contacts-title p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: #445665;
+    margin: 25px 0;
+}
+
+.contacts-title h3 {
+    font-size: 54px;
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #051F34;
+    font-weight: lighter;
+    padding: 5px 0;
+}
+
+.contacts h4 {
+    font-size: 26px;
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #051F34;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.contacts-and-map address,
+p {
+    font-size: 16px;
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #051F34;
+    padding: 5px 0;
+}
+
+/*	Beauty-section*/
 .beauty-block {
-	margin: 150px 0;
+    margin: 150px 0;
 }
 
 .container {
-	max-width: 1200px;
-	margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .beauty_row {
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .beauty__img {
-	margin: 0 130px 0 0;
+    margin: 0 130px 0 0;
 }
 
-.beauty__pre-title{
-	margin: 0 0 40px 0;
-
+.beauty__pre-title {
+    margin: 0 0 40px 0;
 }
+
 .beauty__pre-title h4 {
-	font-family: "Rubik,sans-serif";
-	line-height: 1;
-	font-style: normal;
-	letter-spacing: .142em;
-	font-weight: 900;
-	color: #d9b5a1;
-	font-size: 12px;
+    font-family: "Rubik,sans-serif";
+    line-height: 1;
+    font-style: normal;
+    letter-spacing: .142em;
+    font-weight: 900;
+    color: #d9b5a1;
+    font-size: 12px;
 }
 
 .beauty__title {
-	margin: 0 0 50px 0;
+    margin: 0 0 50px 0;
 }
 
 .beauty__title h2 {
-	font-size: 82px;
-	color: #051f34;
-	line-height: 1;
-	font-family: "Playfair Display,serif";
-	font-weight: 700;
-	text-transform: none;
-	text-decoration: none;
-	font-style: normal;
-	letter-spacing: .024em;
+    font-size: 82px;
+    color: #051f34;
+    line-height: 1;
+    font-family: "Playfair Display,serif";
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .024em;
 }
 
-.beauty__title h2:after{
-	content: ".";
-	color: #d9b5a1;
+.beauty__title h2:after {
+    content: ".";
+    color: #d9b5a1;
 }
 
 .beauty__list {
     line-height: 1.67;
-    font-family: Rubik,sans-serif;
+    font-family: Rubik, sans-serif;
     font-weight: 400;
     text-decoration: none;
     font-style: normal;
@@ -258,31 +409,29 @@ header .banner p {
     color: #051f34;
     text-transform: none;
     margin: 0 0 50px 0;
- }
+}
 
 .beauty__list p {
-	font-size: 18px;
-	margin: 0 0 40px;
-
-}
-.beauty__list li{
-	font-size: 16px;
-	background: url("../img/beauty-icon.jpg") left no-repeat;
-	padding: 0 0 0 30px;
-	margin: 0 0 30px 0;
-
+    font-size: 18px;
+    margin: 0 0 40px;
 }
 
+.beauty__list li {
+    font-size: 16px;
+    background: url("../img/beauty-icon.jpg") left no-repeat;
+    padding: 0 0 0 30px;
+    margin: 0 0 30px 0;
+}
 
 .beauty__btn {
-	width: 160px;
-	height: 40px;
-	background: #e0c0b0;
-	border-width: 2px;
-	border-radius: 8px;
+    width: 160px;
+    height: 40px;
+    background: #e0c0b0;
+    border-width: 2px;
+    border-radius: 8px;
 }
 
-.beauty__btn a{
+.beauty__btn a {
     font-size: 13.2px;
     line-height: 1em;
     letter-spacing: 0;
@@ -298,20 +447,19 @@ header .banner p {
 
 }
 
-.beauty__btn:hover{
-	background:#fff;
-	color: black;
+.beauty__btn:hover {
+    background: #fff;
+    color: black;
 
 }
-.beauty__btn a:hover{
-	color: black;
+
+.beauty__btn a:hover {
+    color: black;
 }
-
-
 
 @media screen and (max-width: 680px) {
-	#description .description-column {
-		flex-basis: 100%;
-		margin: 0 0 5px 0;
-	}
+    #description .description-column {
+        flex-basis: 100%;
+        margin: 0 0 5px 0;
+    }
 }
