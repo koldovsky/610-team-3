@@ -208,6 +208,10 @@ header .banner p {
     color: #fff;
     margin: 40px 0;
 }
+.shop-button:hover{
+    background:#fff;
+    color: black;
+}
 
 
 						/*	Beauty-section*/
