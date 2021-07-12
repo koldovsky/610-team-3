@@ -422,6 +422,40 @@ header .banner p {
     background-color: #e2ded9;
     margin-bottom: 16px;
 }
+.contact-form label {
+    display: block;
+}
+.contact-form input {
+    display: inline-block;
+    text-align: start;
+}
+.contacts-title p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: #445665;
+    margin: 25px 0;
+}
+.contacts-title h3 {
+    font-size: 54px; 
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #051F34;
+    font-weight: lighter;
+    padding: 5px 0;
+}
+.contacts h4 {
+    font-size: 26px; 
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #051F34;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.contacts-and-map address, p {
+    font-size: 16px; 
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #051F34;
+    padding: 5px 0;
+}
 .tre{
     text-align: center;
     color: #D9B5A1;
