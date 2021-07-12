@@ -184,7 +184,6 @@ header .banner p {
 .beauty__img {
 	margin: 0 130px 0 0;
 }
-.beauty_body {}
 
 .beauty__pre-title{
 	margin: 0 0 40px 0;
@@ -280,34 +279,6 @@ header .banner p {
 	color: black;
 }
 
-						/*New-collection-section*/
-.new-collection-block {}
-.new-collection__header {}
-.new-collection__pre-title {}
-.new-collection__title {}
-.new-collection__text {}
-.new-collection__store {}
-.new-collection__tab {}
-.tablinks {}
-.tabcontent {}
-.earrings__row {}
-.item {}
-.rings__row {}
-.necklaces__row {}
-
-
-						/*New-collection-previrv-section*/
-.new-collection-preview-block {}
-.new-collection-preview__row {}
-.new-collection-preview__column1 {}
-.column1__img {}
-.column1__title {}
-.column1__text {}
-.new-collection-preview__column2 {}
-.new-collection-preview__column3 {}
-.column3__pre-title {}
-.column3__title {}
-.column3__btn {}
 
 
 @media screen and (max-width: 680px) {
