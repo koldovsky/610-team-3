@@ -503,22 +503,18 @@ header .banner p {
         font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         color: rgb(5, 31, 52);
-
     }
     .panel {
 font-family: 'Montserrat', sans-serif;
 font-size: 16px;
 color: rgb(5, 31, 52);
     }
-
-
 .footer_nav {
     text-decoration: none;
      padding: 5px;
      color: var(--dark-shade--);
      font-size: medium;
      font-family: 'Montserrat', sans-serif;
-
 }
 .footer_nav>a {
     display:flex;
