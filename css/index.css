@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');/*font-family: 'Montserrat', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sorts+Mill+Goudy&display=swap'); /*font-family: 'Sorts Mill Goudy', serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sorts+Mill+Goudy:ital@1&display=swap'); /*italic  font-family: 'Sorts Mill Goudy', serif;
+
 font-style: italic;*/
 }
 * {
@@ -167,4 +168,31 @@ header .banner p {
 		flex-basis: 100%;
 		margin: 0 0 5px 0;
 	}
+}
+.tre{
+    text-align: center;
+    color: #D9B5A1;
+    font-size: 8px;
+}
+.best{
+    text-align: center;
+    font-size: 54px;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+.sec{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+}
+.add-button{
+    color: #fff;
+    background-color: var(--main-brand-color--);
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.col{
+    font-size: 9px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(217, 181, 161);
 }
