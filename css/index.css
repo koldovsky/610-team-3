@@ -148,7 +148,7 @@ nav .menu {
 }
 
 header {
-    background-image: url(img/banner.webp);
+    background-image: url(../img/banner.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -178,6 +178,7 @@ header .banner h1 {
     font-size: 12px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+    padding: 0 0 25px 5px;
 }
 
 header .banner h2 {
@@ -185,6 +186,7 @@ header .banner h2 {
     font-size: 90px;
     font-weight: normal;
     font-family: 'Sorts Mill Goudy', serif;
+    padding-bottom: 30px;
 }
 
 header .banner h2 span {
@@ -194,8 +196,9 @@ header .banner h2 span {
 header .banner p {
     font-family: 'Sorts Mill Goudy', serif;
     font-style: italic;
-    font-size: 22px;
+    font-size: 25px;
     color: #445665;
+    padding-bottom: 30px;
 }
 
 .banner .shop-button {
@@ -203,6 +206,7 @@ header .banner p {
     padding: 15px 20px;
     text-decoration: none;
     color: #fff;
+    margin: 40px 0;
 }
 
 /*descrption*/
