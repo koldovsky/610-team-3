@@ -17,12 +17,10 @@ font-style: italic;*/
 }
 body {
     background-color: var(--first-accent--);
-    margin: 0;
-    padding: 0;
 }
 .container,{
-    width: 1300px;
-    margin: auto;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 nav {
     display: flex;
@@ -128,6 +126,9 @@ header .banner p {
     text-align: center;
 }
 
+
+
+
 @media screen and (max-width: 1060px) {
     #description .description-column {
 		margin-bottom: 5px;
@@ -161,6 +162,151 @@ header .banner p {
          
      }
 }
+
+						/*	Beauty-section*/
+.beauty-block {
+	margin: 150px 0;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.beauty_row {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.beauty__img {
+	margin: 0 130px 0 0;
+}
+.beauty_body {}
+
+.beauty__pre-title{
+	margin: 0 0 40px 0;
+
+}
+.beauty__pre-title h4 {
+	font-family: "Rubik,sans-serif";
+	line-height: 1;
+	font-style: normal;
+	letter-spacing: .142em;
+	font-weight: 900;
+	color: #d9b5a1;
+	font-size: 12px;
+}
+
+.beauty__title {
+	margin: 0 0 50px 0;
+}
+
+.beauty__title h2 {
+	font-size: 82px;
+	color: #051f34;
+	line-height: 1;
+	font-family: "Playfair Display,serif";
+	font-weight: 700;
+	text-transform: none;
+	text-decoration: none;
+	font-style: normal;
+	letter-spacing: .024em;
+}
+
+.beauty__title h2:after{
+	content: ".";
+	color: #d9b5a1;
+}
+
+.beauty__list {
+    line-height: 1.67;
+    font-family: Rubik,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .056em;
+    color: #051f34;
+    text-transform: none;
+    margin: 0 0 50px 0;
+ }
+
+.beauty__list p {
+	font-size: 18px;
+	margin: 0 0 40px;
+
+}
+.beauty__list li{
+	font-size: 16px;
+	background: url("../img/beauty-icon.jpg") left no-repeat;
+	padding: 0 0 0 30px;
+	margin: 0 0 30px 0;
+
+}
+
+
+.beauty__btn {
+	width: 160px;
+	height: 40px;
+	background: #e0c0b0;
+	border-width: 2px;
+	border-radius: 8px;
+}
+
+.beauty__btn a{
+    font-size: 13.2px;
+    line-height: 1em;
+    letter-spacing: 0;
+    letter-spacing: .077em;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.beauty__btn:hover{
+	background:#fff;
+	color: black;
+
+}
+.beauty__btn a:hover{
+	color: black;
+}
+
+						/*New-collection-section*/
+.new-collection-block {}
+.new-collection__header {}
+.new-collection__pre-title {}
+.new-collection__title {}
+.new-collection__text {}
+.new-collection__store {}
+.new-collection__tab {}
+.tablinks {}
+.tabcontent {}
+.earrings__row {}
+.item {}
+.rings__row {}
+.necklaces__row {}
+
+
+						/*New-collection-previrv-section*/
+.new-collection-preview-block {}
+.new-collection-preview__row {}
+.new-collection-preview__column1 {}
+.column1__img {}
+.column1__title {}
+.column1__text {}
+.new-collection-preview__column2 {}
+.new-collection-preview__column3 {}
+.column3__pre-title {}
+.column3__title {}
+.column3__btn {}
+
 
 @media screen and (max-width: 680px) {
 	#description .description-column {
