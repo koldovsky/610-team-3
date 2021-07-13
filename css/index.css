@@ -536,7 +536,6 @@ padding: 15px;
     display: flex;
     justify-content: space-around;
 }
-
 .footer_nav {
     text-decoration: none;
      color: var(--dark-shade--);
@@ -556,17 +555,18 @@ padding: 15px;
     font-weight: 900;
 }
 .footer-text {
+    display:flex;
+    flex-direction: column;
     padding: 10px;
-    font-size: 16px; 
+    font-size: 15px; 
     font-family: 'Montserrat', sans-serif;
-    color:#051F34;
+    color:rgb(68, 86, 101);
 }
 .footer_column {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding-top: 30px;
-    
     }
     .link {
         text-align: center;
