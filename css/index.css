@@ -487,44 +487,86 @@ header .banner p {
     font-family: 'Montserrat', sans-serif;
     color: rgb(217, 181, 161);
 }
-.support>h2 {
-    text-align: left;
-    font-family: 'Sorts Mill Goudy', sans-serif;
+.faq {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    color:#D9B5A1
+}
+.support-title {
+    font-family: 'Sorts Mill Goudy', serif;
     font-size: 54px;
-    color: rgb(5, 31, 52);
+    color:#051F34;
+    padding: 15px;
 }
-.support>p {
-    font-family: 'Sorts Mill Goudy', sans-serif;
-    font-style: italic;
-        font-size: 22px;
-       color: rgb(5, 31, 52);
+.question_mark {
+    color:#D9B5A1
 }
-    .accordion {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
-        color: rgb(5, 31, 52);
-    }
-    .panel {
-font-family: 'Montserrat', sans-serif;
-font-size: 16px;
-color: rgb(5, 31, 52);
-    }
+.support-subtitle {
+font-family: 'Sorts Mill Goudy', serif;
+font-size: 22px;
+font-weight: 100;
+font-style: italic;
+color:rgb(68, 86, 101);
+padding: 15px;
+}
+.wrapper-question {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.wrapper-question div {
+    margin: auto;
+}
+.section-img {
+    max-width: 650px;
+}
+.gallery-title {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 54px;
+    color:#051F34;
+    padding: 15px;
+    text-align: center;
+}
+#gallery img {
+    width: 100%;
+    max-height: 650px;
+    min-height: 300px;
+}
+.carousel {
+    display: flex;
+    justify-content: space-around;
+}
+
 .footer_nav {
     text-decoration: none;
-     padding: 5px;
      color: var(--dark-shade--);
      font-size: medium;
      font-family: 'Montserrat', sans-serif;
 }
-.footer_nav>a {
-    display:flex;
+.footer_logo {
+    display: flex;
     justify-content: center;
+    height: 64.3px;
+}
+.name-column {
+    padding: 10px;
+    font-size: 16px; 
+    font-family: 'Montserrat', sans-serif;
+    color:#051F34;
+    font-weight: 900;
+}
+.footer-text {
+    padding: 10px;
+    font-size: 16px; 
+    font-family: 'Montserrat', sans-serif;
+    color:#051F34;
 }
 .footer_column {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding-top: 30px;
+    
     }
     .link {
         text-align: center;
@@ -607,7 +649,7 @@ color: rgb(5, 31, 52);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 .quotes img {
     max-width: 306px;
