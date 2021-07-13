@@ -1,16 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sorts+Mill+Goudy&display=swap');
+/*font-family: 'Sorts Mill Goudy', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sorts+Mill+Goudy:ital@1&display=swap');
+
+/*italic  font-family: 'Sorts Mill Goudy', serif;
+font-style: italic;*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+:root {
+    --light-shade--: #FFF;
+    --dark-shade--: #051F34;
+    --main-brand-color--: #E0C0B0;
+    --first-accent--: #F6F4F2;
+    --second-accent--: #D9B5A1;
+}
+
+body {
+    background-color: var(--first-accent--);
+    margin: 0;
+    padding: 0;
+}
+
 main {
     max-width: 1200px;
-	margin: 0 auto;
+    margin: 0 auto;
 }
+
 .item {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     margin: 5px 0;
 }
-.item-img, .item-description {
-	flex: 1;
-	margin: 30px;
-	padding: 5px;
+
+.item-img,
+.item-description {
+    flex: 1;
+    margin: 30px;
+    padding: 5px;
     text-align: left;
+}
+
+.item .item-img img {
+    width: 430px;
+    box-sizing: border-box;
+}
+
+.item .item-description .stock {
+    color: #5b914b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 6px 0;
+}
+
+.item .item-description .name {
+    color: var(--dark-shade--);
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 25px;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.item .item-description .code {
+    color: var(--dark-shade--);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.item .item-description .price {
+    color: var(--dark-shade--);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 80px;
+}
+
+.item .item-description input[type="number"] {
+    width: 60px;
+    height: 35px;
+    border: 1px solid #c2bfbe;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.item .item-description button {
+    background-color: var(--main-brand-color--);
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    flex: 1;
+    margin-left: 16px;
+}
+
+.item .item-description .buy {
+    display: flex;
+    flex-direction: row;
 }
