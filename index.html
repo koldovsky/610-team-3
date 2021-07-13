@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jewelry Store</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="css/index.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -306,107 +307,163 @@
         <!--Section Our News and Articles-->
         <section class="news_and_articles" id="testimonials">
             <div class="news">
-                <h2>BLOG</h2>
-                <h3>Our News and Articles</h3>
-                <p>
-                    Check out our latest articles to learn more about our brand and get
-                    tips on jewelry care.
-                </p>
+              <h2>BLOG</h2>
+              <h3>Our News and Articles</h3>
+              <p>
+                Check out our latest articles to learn more about our brand and get
+                tips on jewelry care.
+              </p>
             </div>
             <div class="articles">
-                <div class="article-first">
-                    <img src="img/news-and-article/article-in-february.webp" alt="earrings jewelry" />
-                    <p class="articles_date">01 FEBRUARY 2021</p>
-                    <h4>The Most Romantic Picks</h4>
-                    <p>
-                        Valentine's Day is approaching! If you have not yet decided on
-                        your outfit, we have picked the best jewelry sets that will
-                        look...
-                    </p>
-                    <p class="read_more">READ MORE &rarr;</p>
-                </div>
-                <div class="article-second">
-                    <img src="img/news-and-article/article-in-march.webp" alt="pendant jewerly" />
-                    <p class="articles_date">15 MARCH 2021</p>
-                    <h4>Welcome a New Hot Trend</h4>
-                    <p>
-                        Massive chains in necklaces and bracelets are a new hot trend for
-                        2021. Read this article to learn how to wear and combine them ...
-                    </p>
-                    <p class="read_more">READ MORE &rarr;</p>
-                </div>
-                <div class="article-third">
-                    <img src="img/news-and-article/article-in-april.webp" alt="chain jewerly" />
-                    <p class="articles_date">01 APRIL 2021</p>
-                    <h4>Jewelry for Business Styles</h4>
-                    <p>
-                        Some companies have strict dress code requirements, including
-                        accessories. Let's see what kind of jewelry you can still wear...
-                    </p>
-                    <p class="read_more">READ MORE &rarr;</p>
-                </div>
+              <div class="article-first">
+                <img
+                  src="img/news-and-article/article-in-february.webp"
+                  alt="earrings jewelry"
+                />
+                <p class="articles_date">01 FEBRUARY 2021</p>
+                <h4>The Most Romantic Picks</h4>
+                <p>
+                  Valentine's Day is approaching! If you have not yet decided on
+                  your outfit, we have picked the best jewelry sets that will
+                  look...
+                </p>
+                <p class="read_more"><a href="#">READ MORE &rarr;</a></p>
+              </div>
+              <div class="article-second">
+                <img
+                  src="img/news-and-article/article-in-march.webp"
+                  alt="pendant jewerly"
+                />
+                <p class="articles_date">15 MARCH 2021</p>
+                <h4>Welcome a New Hot Trend</h4>
+                <p>
+                  Massive chains in necklaces and bracelets are a new hot trend for
+                  2021. Read this article to learn how to wear and combine them ...
+                </p>
+                <p class="read_more"><a href="#">READ MORE &rarr;</a></p>
+              </div>
+              <div class="article-third">
+                <img
+                  src="img/news-and-article/article-in-april.webp"
+                  alt="chain jewerly"
+                />
+                <p class="articles_date">01 APRIL 2021</p>
+                <h4>Jewelry for Business Styles</h4>
+                <p>
+                  Some companies have strict dress code requirements, including
+                  accessories. Let's see what kind of jewelry you can still wear...
+                </p>
+                <p class="read_more"><a href="#">READ MORE &rarr;</a></p>
+              </div>
             </div>
-        </section>
-        <div class="quotes">
-            <div class="first_quote">
-                <img src="img/quotes/A.svg" alt="A" />
-                <p>Alice Meterson</p>
-                <blockquote>
-                    «I love every item made by Aurora. Every time I open their website,
-                    I want to buy everything! The quality is very good, and looking at
-                    these items, there's no doubt it's the designer jewelry.»
+          </section>
+          <div
+            id="products-carousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#products-carousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#products-carousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#products-carousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/quotes/A.svg" class="d-block w-50 mx-auto" alt="A" />
+                <p class="d-block w-50 mx-auto">Alice Meterson</p>
+                <blockquote class="d-block w-50 mx-auto">
+                  «I love every item made by Aurora. Every time I open their
+                  website, I want to buy everything! The quality is very good, and
+                  looking at these items, there's no doubt it's the designer
+                  jewelry.»
                 </blockquote>
+              </div>
+              <div class="carousel-item">
+                <img src="img/quotes/M.svg" class="d-block w-50 mx-auto" alt="M" />
+                <p class="d-block w-50 mx-auto">Mindy Owler</p>
+                <blockquote class="d-block w-50 mx-auto">
+                  «I love exclusive jewelry. Unfortunately, even the big modern
+                  brands make pretty typical products that are similar to one
+                  another. Aurora is completely different!»
+                </blockquote>
+              </div>
+              <div class="carousel-item">
+                <img src="img/quotes/V.svg" class="d-block w-50 mx-auto" alt="V" />
+                <p class="d-block w-50 mx-auto">Victoria Roulson</p>
+                <blockquote class="d-block w-50 mx-auto">
+                  «Thanks for my new earrings! I still receive a huge number of
+                  compliments on my jewelry and I am happy to say that it is the
+                  Aurora brand.»
+                </blockquote>
+              </div>
             </div>
-            <!--
-            <div class="second_quote">
-              <img src="img/quotes/M.svg" alt="M" />
-              <blockquote>
-                «I love exclusive jewelry. Unfortunately, even the big modern brands
-                make pretty typical products that are similar to one another. Aurora
-                is completely different!»
-              </blockquote>
-            </div>
-            <div class="third_quote">
-              <img src="img/quotes/V.svg" alt="V" />
-              <blockquote>
-                «Thanks for my new earrings! I still receive a huge number of
-                compliments on my jewelry and I am happy to say that it is the
-                Aurora brand.»
-              </blockquote>
-            </div>
-            -->
-        </div>
-        <div class="stores">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#products-carousel"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#products-carousel"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="stores">
             <div>
-                <img src="img/stores/photo-in-stores.webp" alt="jewerly" />
+              <img src="img/stores/photo-in-stores.webp" alt="jewerly" />
             </div>
             <div class="stores_img_box">
-                <div class="stores_img">
-                    <img src="img/stores/macys.svg" alt="macys" />
-                </div>
-                <div class="stores_img">
-                    <img src="img/stores/zales.svg" alt="zales" />
-                </div>
-                <div class="stores_img">
-                    <img src="img/stores/harrods.svg" alt="harrods" />
-                </div>
-                <div class="stores_img">
-                    <img src="img/stores/nordstrom.svg" alt="nordstrom" />
-                </div>
-                <div class="stores_img">
-                    <img src="img/stores/bloomingdales.svg" alt="bloomindales" />
-                </div>
-                <div class="stores_img">
-                    <img src="img/stores/dillards.svg" alt="dillards" />
-                </div>
-                <div class="stores_img">
-                    <img src="img/stores/diamonds.svg" alt="diamond chapter" />
-                </div>
-                <div class="stores_img">
-                    <img src="img/stores/neiman.svg" alt="neiman mareus" />
-                </div>
+              <div class="stores_img">
+                <img src="img/stores/macys.svg" alt="macys" />
+              </div>
+              <div class="stores_img">
+                <img src="img/stores/zales.svg" alt="zales" />
+              </div>
+              <div class="stores_img">
+                <img src="img/stores/harrods.svg" alt="harrods" />
+              </div>
+              <div class="stores_img">
+                <img src="img/stores/nordstrom.svg" alt="nordstrom" />
+              </div>
+              <div class="stores_img">
+                <img src="img/stores/bloomingdales.svg" alt="bloomindales" />
+              </div>
+              <div class="stores_img">
+                <img src="img/stores/dillards.svg" alt="dillards" />
+              </div>
+              <div class="stores_img">
+                <img src="img/stores/diamonds.svg" alt="diamond chapter" />
+              </div>
+              <div class="stores_img">
+                <img src="img/stores/neiman.svg" alt="neiman mareus" />
+              </div>
             </div>
-        </div>
+          </div>
         <!--Section Need help?-->
         <section class="support" id="faq">
             <div class="wrapper-question">
@@ -562,6 +619,7 @@
             </div>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
