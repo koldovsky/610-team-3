@@ -483,9 +483,26 @@ header .banner p {
     text-decoration: none;
 }
 .col{
-    font-size: 9px;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(217, 181, 161);
+    font-family: "Montserrat", sans-serif;
+	line-height: 1;
+	font-style: normal;
+	letter-spacing: .142em;
+	font-weight: 900;
+	color: #d9b5a1;
+	font-size: 12px;
+}
+.youth-collection{
+    font-size: 90px;
+    font-family: "Sorts Mill Goudy", serif;
+}
+.necl{
+    width: 200px;
+}
+.rin{
+    width: 200px;
+}
+.ear{
+    width: 200px;
 }
 .faq {
     font-family: 'Montserrat', sans-serif;
@@ -712,4 +729,38 @@ padding: 15px;
 .stores img {
     max-width: 100px;
     max-height: 256px;
+}
+.collection-block{
+    background-image: url(../img/coll-back.webp);
+    background-size: 1800px;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 1500px;
+    height: 600px;
+    padding: 0px 1000px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    
+}
+.categories-block{
+    margin: 50px;
+}
+.limedi{
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 22px;
+}
+.colp{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+.button1{
+    font-weight: 700;
+    font-size: 15px;
+    background: var(--second-accent--);
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.button1:hover{
+    color:black;
+    background: #fff;
 }
