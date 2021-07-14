@@ -335,15 +335,14 @@ header .banner p {
 /*New-collection-section*/
 /* .new-collection-block {
   } */
-.new-collection__header {
+  .new-collection__header {
     text-align: center;
-}
-
-.new-collection__pre-title {
+  }
+  .new-collection__pre-title {
     margin: 0 0 30px 0;
-}
-
-.new-collection__title h2 {
+  }
+  
+  .new-collection__title h2 {
     font-size: 48px;
     color: #051f34;
     line-height: 1;
@@ -354,14 +353,14 @@ header .banner p {
     font-style: normal;
     letter-spacing: 0.042em;
     margin: 0 0 20px 0;
-}
-
-.new-collection__title h2:after {
+  }
+  
+  .new-collection__title h2:after {
     content: ".";
     color: #d9b5a1;
-}
-
-.new-collection__text p {
+  }
+  
+  .new-collection__text p {
     font-size: 18px;
     line-height: 1.67;
     font-family: Rubik, sans-serif;
@@ -372,14 +371,13 @@ header .banner p {
     color: #051f34;
     text-transform: none;
     margin: 0 0 80px 0;
-}
-
-.new-collection__tab {
+  }
+  
+  .new-collection__tab {
     text-align: center;
     position: relative;
-}
-
-.tablinks {
+  }
+  .tablinks {
     font-size: 16px;
     line-height: 1.75;
     font-family: Rubik, sans-serif;
@@ -390,11 +388,27 @@ header .banner p {
     color: #051f34;
     text-transform: none;
     background: #f6f4f2;
-    margin: 0 15px 15px 15px;
+    padding: 0 15px 15px 15px;
     position: relative;
-}
-
-.new-collection__tab:after {
+    opacity: 0.7;
+  }
+  .tablinks.active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    color: inherit;
+    background-color: #d9b5a1;
+    opacity: 1;
+  }
+  
+  .new-collection__tab button.active {
+    opacity: 1;
+    font-weight: 700;
+  }
+  .new-collection__tab:after {
     content: "";
     position: absolute;
     height: 1px;
@@ -404,31 +418,27 @@ header .banner p {
     color: black;
     background-color: currentColor;
     opacity: 0.125;
-}
-
-.tabcontent {
+  }
+  .tabcontent {
     display: none;
-}
-
-.earrings__row {
+  }
+  .earrings__row {
     display: flex;
     flex-wrap: wrap;
     margin: 30px -15px 0 -15px;
-}
-
-.rings__row {
+  }
+  .rings__row {
     display: flex;
     flex-wrap: wrap;
     margin: 30px -15px 0 -15px;
-}
-
-.necklaces__row {
+  }
+  .necklaces__row {
     display: flex;
     flex-wrap: wrap;
     margin: 30px -15px 0 -15px;
-}
-
-.item {
+  }
+  
+  .item {
     background: #fff;
     flex: 1 1 20%;
     display: flex;
@@ -437,13 +447,12 @@ header .banner p {
     align-items: center;
     padding: 0 0 50px 0;
     margin: 20px 15px 30px 15px;
-}
-
-.item__img {
+  }
+  
+  .item__img {
     margin: 0 0 30px 0;
-}
-
-.item__link a {
+  }
+  .item__link a {
     font-size: 16px;
     line-height: 1.75;
     font-family: Rubik, sans-serif;
@@ -454,16 +463,14 @@ header .banner p {
     font-style: normal;
     color: #e0c0b0;
     text-decoration: underline;
-}
-
-.item__text {
+  }
+  .item__text {
     font-weight: 600;
     font-size: 16px;
     white-space: nowrap;
     margin: 25px 0 25px 0;
-}
-
-.item__btn {
+  }
+  .item__btn {
     border-width: 2px;
     border-radius: 8px;
     width: 190px;
@@ -472,9 +479,8 @@ header .banner p {
     justify-content: center;
     align-items: center;
     background: #e0c0b0;
-}
-
-.item__btn button {
+  }
+  .item__btn button {
     font-size: 13.2px;
     line-height: 1em;
     letter-spacing: 0;
@@ -483,12 +489,7 @@ header .banner p {
     color: #051f34;
     background: #e0c0b0;
     text-transform: uppercase;
-}
-
-.new-collection__tab button.active {
-    color: red;
-}
-
+  }
 /*New-collection-previrv-section*/
 .new-collection-preview-block {
     padding: 100px 0;
