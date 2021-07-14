@@ -755,13 +755,6 @@ textarea {
     font-style: italic;
 }
 
-.add-button {
-    color: #fff;
-    background-color: var(--main-brand-color--);
-    padding: 15px 20px;
-    text-decoration: none;
-}
-
 .col {
     font-family: "Montserrat", sans-serif;
     line-height: 1;
@@ -1079,4 +1072,43 @@ textarea {
 .button1:hover {
     color: black;
     background: #fff;
+}
+.products-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.product-img{
+    margin: 0 0 30px 0;
+}
+.product-link a{
+    font-size: 16px;
+    line-height: 1.75;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.031em;
+    font-style: normal;
+    color: #e0c0b0;
+    text-decoration: underline;
+}
+.product-text{
+    font-weight: 600;
+    font-size: 16px;
+    white-space: nowrap;
+    margin: 25px 0 25px 0;
+}
+.product-btn{
+    border-width: 2px;
+    border-radius: 8px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e0c0b0;
+}
+.product-1{
+    background: white;
+    margin: 0 25px 0px 25px;
 }
