@@ -838,8 +838,8 @@ textarea {
     margin: auto;
 }
 
-.section-img {
-    max-width: 650px;
+.section-img img {
+    max-width: 450px;
     display: block;
 }
 
@@ -850,18 +850,6 @@ textarea {
     padding: 15px;
     text-align: center;
 }
-
-#gallery img {
-    width: 100%;
-    max-height: 650px;
-    min-height: 300px;
-}
-
-.carousel {
-    display: flex;
-    justify-content: space-around;
-}
-
 .footer_nav {
     text-decoration: none;
     color: var(--dark-shade--);
@@ -875,12 +863,13 @@ textarea {
     height: 64.3px;
 }
 
-.name-column {
+.footer_column h5 {
     padding: 10px;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-    color: #051F34;
+    color:#051F34;
     font-weight: 900;
+    font-stretch: 100%;
 }
 
 .footer-text {
