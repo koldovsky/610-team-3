@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');/*font-family: 'Montserrat', sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sorts+Mill+Goudy&display=swap'); /*font-family: 'Sorts Mill Goudy', serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sorts+Mill+Goudy:ital@1&display=swap'); /*italic  font-family: 'Sorts Mill Goudy', serif;
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sorts+Mill+Goudy&display=swap');
+/*font-family: 'Sorts Mill Goudy', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sorts+Mill+Goudy:ital@1&display=swap');
+/*italic  font-family: 'Sorts Mill Goudy', serif;
 
 font-style: italic;*/
 
@@ -208,37 +211,40 @@ header .banner p {
     color: #fff;
     margin: 40px 0;
 }
-.shop-button:hover{
-    background:#fff;
+
+.shop-button:hover {
+    background: #fff;
     color: black;
 }
 
 
-				/*	Beauty-section*/
+/*	Beauty-section*/
 .beauty-block {
     margin: 150px 0;
-  }
-  .container {
+}
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  .beauty__row {
+}
+
+.beauty__row {
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
-  }
-  
-  .beauty__img {
+}
+
+.beauty__img {
     margin: 0 100px 0 0;
-  }
-  
-  .beauty__pre-title {
+}
+
+.beauty__pre-title {
     margin: 0 0 40px 0;
-  }
-  /* .beauty__pre-title h4 {
+}
+
+/* .beauty__pre-title h4 {
   } */
-  .pre-title h4 {
+.pre-title h4 {
     font-family: "Rubik,sans-serif";
     line-height: 1;
     font-style: normal;
@@ -246,14 +252,14 @@ header .banner p {
     font-weight: 900;
     color: #d9b5a1;
     font-size: 12px;
-  }
-  
-  .beauty__title {
+}
+
+.beauty__title {
     margin: 0 0 50px 0;
     max-width: 550px;
-  }
-  
-  .beauty__title h2 {
+}
+
+.beauty__title h2 {
     font-size: 82px;
     color: #051f34;
     line-height: 1;
@@ -263,14 +269,14 @@ header .banner p {
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0.024em;
-  }
-  
-  .beauty__title h2:after {
+}
+
+.beauty__title h2:after {
     content: ".";
     color: #d9b5a1;
-  }
-  
-  .beauty__list {
+}
+
+.beauty__list {
     line-height: 1.67;
     font-family: Rubik, sans-serif;
     font-weight: 400;
@@ -280,28 +286,29 @@ header .banner p {
     color: #051f34;
     text-transform: none;
     margin: 0 0 50px 0;
-  }
-  
-  .beauty__list p {
+}
+
+.beauty__list p {
     font-size: 18px;
     margin: 0 0 40px;
-  }
-  .beauty__list li {
+}
+
+.beauty__list li {
     font-size: 16px;
     background: url("../img/beauty-icon.jpg") left no-repeat;
     padding: 0 0 0 30px;
     margin: 0 0 30px 0;
-  }
-  
-  .beauty__btn {
+}
+
+.beauty__btn {
     width: 160px;
     height: 40px;
     background: #e0c0b0;
     border-width: 2px;
     border-radius: 8px;
-  }
-  
-  .beauty__btn a {
+}
+
+.beauty__btn a {
     font-size: 13.2px;
     line-height: 1em;
     letter-spacing: 0;
@@ -314,27 +321,29 @@ header .banner p {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .beauty__btn:hover {
+}
+
+.beauty__btn:hover {
     background: #fff;
     color: black;
-  }
-  .beauty__btn a:hover {
+}
+
+.beauty__btn a:hover {
     color: black;
-  }
-  
-  /*New-collection-section*/
-  /* .new-collection-block {
+}
+
+/*New-collection-section*/
+/* .new-collection-block {
   } */
-  .new-collection__header {
+.new-collection__header {
     text-align: center;
-  }
-  .new-collection__pre-title {
+}
+
+.new-collection__pre-title {
     margin: 0 0 30px 0;
-  }
-  
-  .new-collection__title h2 {
+}
+
+.new-collection__title h2 {
     font-size: 48px;
     color: #051f34;
     line-height: 1;
@@ -345,14 +354,14 @@ header .banner p {
     font-style: normal;
     letter-spacing: 0.042em;
     margin: 0 0 20px 0;
-  }
-  
-  .new-collection__title h2:after {
+}
+
+.new-collection__title h2:after {
     content: ".";
     color: #d9b5a1;
-  }
-  
-  .new-collection__text p {
+}
+
+.new-collection__text p {
     font-size: 18px;
     line-height: 1.67;
     font-family: Rubik, sans-serif;
@@ -363,13 +372,14 @@ header .banner p {
     color: #051f34;
     text-transform: none;
     margin: 0 0 80px 0;
-  }
-  
-  .new-collection__tab {
+}
+
+.new-collection__tab {
     text-align: center;
     position: relative;
-  }
-  .tablinks {
+}
+
+.tablinks {
     font-size: 16px;
     line-height: 1.75;
     font-family: Rubik, sans-serif;
@@ -382,8 +392,9 @@ header .banner p {
     background: #f6f4f2;
     margin: 0 15px 15px 15px;
     position: relative;
-  }
-  .new-collection__tab:after {
+}
+
+.new-collection__tab:after {
     content: "";
     position: absolute;
     height: 1px;
@@ -393,27 +404,31 @@ header .banner p {
     color: black;
     background-color: currentColor;
     opacity: 0.125;
-  }
-  .tabcontent {
+}
+
+.tabcontent {
     display: none;
-  }
-  .earrings__row {
+}
+
+.earrings__row {
     display: flex;
     flex-wrap: wrap;
     margin: 30px -15px 0 -15px;
-  }
-  .rings__row {
+}
+
+.rings__row {
     display: flex;
     flex-wrap: wrap;
     margin: 30px -15px 0 -15px;
-  }
-  .necklaces__row {
+}
+
+.necklaces__row {
     display: flex;
     flex-wrap: wrap;
     margin: 30px -15px 0 -15px;
-  }
-  
-  .item {
+}
+
+.item {
     background: #fff;
     flex: 1 1 20%;
     display: flex;
@@ -422,12 +437,13 @@ header .banner p {
     align-items: center;
     padding: 0 0 50px 0;
     margin: 20px 15px 30px 15px;
-  }
-  
-  .item__img {
+}
+
+.item__img {
     margin: 0 0 30px 0;
-  }
-  .item__link a {
+}
+
+.item__link a {
     font-size: 16px;
     line-height: 1.75;
     font-family: Rubik, sans-serif;
@@ -438,14 +454,16 @@ header .banner p {
     font-style: normal;
     color: #e0c0b0;
     text-decoration: underline;
-  }
-  .item__text {
+}
+
+.item__text {
     font-weight: 600;
     font-size: 16px;
     white-space: nowrap;
     margin: 25px 0 25px 0;
-  }
-  .item__btn {
+}
+
+.item__btn {
     border-width: 2px;
     border-radius: 8px;
     width: 190px;
@@ -454,8 +472,9 @@ header .banner p {
     justify-content: center;
     align-items: center;
     background: #e0c0b0;
-  }
-  .item__btn button {
+}
+
+.item__btn button {
     font-size: 13.2px;
     line-height: 1em;
     letter-spacing: 0;
@@ -464,33 +483,36 @@ header .banner p {
     color: #051f34;
     background: #e0c0b0;
     text-transform: uppercase;
-  }
-  
-  .new-collection__tab button.active {
+}
+
+.new-collection__tab button.active {
     color: red;
-  }
-  
-  /*New-collection-previrv-section*/
-  .new-collection-preview-block {
+}
+
+/*New-collection-previrv-section*/
+.new-collection-preview-block {
     padding: 100px 0;
-  }
-  .new-collection-preview__row {
+}
+
+.new-collection-preview__row {
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  .new-collection-preview__column1 {
+}
+
+.new-collection-preview__column1 {
     background: #efe8e3;
     margin: 0 30px 0 0;
     text-align: left;
     padding: 30px;
-  }
-  .column1__img img {
+}
+
+.column1__img img {
     width: 100%;
     max-width: 220px;
     height: auto;
-  }
-  .column1__title {
+}
+
+.column1__title {
     color: #d9b5a1;
     font-size: 16px;
     line-height: 1.75;
@@ -500,16 +522,18 @@ header .banner p {
     font-style: normal;
     letter-spacing: 0.031em;
     text-transform: none;
-  }
-  .column1__text {
+}
+
+.column1__text {
     color: rgb(93, 93, 93);
     font-size: 18px;
     line-height: 1.67;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0.056em;
-  }
-  .column1__text span {
+}
+
+.column1__text span {
     color: #d9b5a1;
     font-size: 18px;
     line-height: 1.67;
@@ -517,18 +541,21 @@ header .banner p {
     font-weight: 700;
     font-style: normal;
     letter-spacing: 0.056em;
-  }
-  .new-collection-preview__column2 img {
+}
+
+.new-collection-preview__column2 img {
     width: 100%;
     max-width: 600px;
     height: auto;
-  }
-  .new-collection-preview__column3 {
+}
+
+.new-collection-preview__column3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  /* .column3__pre-title {
+}
+
+/* .column3__pre-title {
   }
   .column3__title {
   }
@@ -628,15 +655,62 @@ header .banner p {
 
 .contact-form {
     background-color: #e2ded9;
-    margin-bottom: 16px;
+    border: medium none;
+    padding: 40px;
+    width: 100%;
 }
+
 .contact-form label {
     display: block;
 }
-.contact-form input {
-    display: inline-block;
-    text-align: start;
+
+.contact-form input[type="text"],
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 15px 0;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form input[type="submit"] {
+    background-color: var(--main-brand-color--);
+    color: #fff;
+    margin: 20px 0;
+    padding: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+}
+
+.contact-form input[type="text"]:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #3a18d1;
+    border-radius: 8px;
+}
+
+.contact-form textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #3a18d1;
+    border-radius: 8px;
+}
+
+.contact-form input[type="submit"]:hover {
+    color: black;
+    background: #fff;
+}
+
 .contacts-title p {
     font-family: 'Sorts Mill Goudy', serif;
     font-style: italic;
@@ -644,171 +718,204 @@ header .banner p {
     color: #445665;
     margin: 25px 0;
 }
+
 .contacts-title h3 {
-    font-size: 54px; 
+    font-size: 54px;
     font-family: 'Sorts Mill Goudy', serif;
     color: #051F34;
     font-weight: lighter;
     padding: 5px 0;
 }
+
 .contacts h4 {
-    font-size: 26px; 
+    font-size: 26px;
     font-family: 'Sorts Mill Goudy', serif;
     color: #051F34;
     font-weight: 500;
     padding: 5px 0;
 }
-.contacts-and-map address, p {
-    font-size: 16px; 
+
+.contacts-and-map address,
+p {
+    font-size: 16px;
     font-family: 'Sorts Mill Goudy', serif;
     color: #051F34;
     padding: 5px 0;
 }
-.tre{
+
+.tre {
     text-align: center;
     color: #D9B5A1;
     font-size: 8px;
 }
-.best{
+
+.best {
     text-align: center;
     font-size: 54px;
     font-family: 'Sorts Mill Goudy', serif;
 }
-.sec{
+
+.sec {
     text-align: center;
     font-size: 22px;
     font-family: 'Sorts Mill Goudy', serif;
     font-style: italic;
 }
-.add-button{
+
+.add-button {
     color: #fff;
     background-color: var(--main-brand-color--);
     padding: 15px 20px;
     text-decoration: none;
 }
-.col{
+
+.col {
     font-family: "Montserrat", sans-serif;
-	line-height: 1;
-	font-style: normal;
-	letter-spacing: .142em;
-	font-weight: 900;
-	color: #d9b5a1;
-	font-size: 12px;
+    line-height: 1;
+    font-style: normal;
+    letter-spacing: .142em;
+    font-weight: 900;
+    color: #d9b5a1;
+    font-size: 12px;
 }
-.youth-collection{
+
+.youth-collection {
     font-size: 90px;
     font-family: "Sorts Mill Goudy", serif;
 }
-.necl{
+
+.necl {
     width: 200px;
 }
-.rin{
+
+.rin {
     width: 200px;
 }
-.ear{
+
+.ear {
     width: 200px;
 }
+
 .faq {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 900;
-    color:#D9B5A1
+    color: #D9B5A1
 }
+
 .support-title {
     font-family: 'Sorts Mill Goudy', serif;
     font-size: 54px;
-    color:#051F34;
+    color: #051F34;
     padding: 15px;
 }
+
 .question_mark {
-    color:#D9B5A1
+    color: #D9B5A1
 }
+
 .support-subtitle {
-font-family: 'Sorts Mill Goudy', serif;
-font-size: 22px;
-font-weight: 100;
-font-style: italic;
-color:rgb(68, 86, 101);
-padding: 15px;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 22px;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(68, 86, 101);
+    padding: 15px;
 }
+
 .visible-string {
     font-family: 'Sorts Mill Goudy', serif;
     font-size: 22px;
     padding: 15px;
     color: #051F34;
 }
+
 .unvisible-string {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    color:rgb(68, 86, 101)
+    color: rgb(68, 86, 101)
 }
+
 .wrapper-question {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .wrapper-question div {
     margin: auto;
 }
+
 .section-img {
     max-width: 650px;
     display: block;
 }
+
 .gallery-title {
     font-family: 'Sorts Mill Goudy', serif;
     font-size: 54px;
-    color:#051F34;
+    color: #051F34;
     padding: 15px;
     text-align: center;
 }
+
 #gallery img {
     width: 100%;
     max-height: 650px;
     min-height: 300px;
 }
+
 .carousel {
     display: flex;
     justify-content: space-around;
 }
+
 .footer_nav {
     text-decoration: none;
-     color: var(--dark-shade--);
-     font-size: medium;
-     font-family: 'Montserrat', sans-serif;
+    color: var(--dark-shade--);
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
 }
+
 .footer_logo {
     display: flex;
     justify-content: center;
     height: 64.3px;
 }
+
 .name-column {
     padding: 10px;
-    font-size: 16px; 
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-    color:#051F34;
+    color: #051F34;
     font-weight: 900;
 }
+
 .footer-text {
-    display:flex;
+    display: flex;
     flex-direction: column;
     padding: 10px;
-    font-size: 15px; 
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
-    color:rgb(68, 86, 101);
+    color: rgb(68, 86, 101);
 }
+
 .footer_column {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 30px;
-    }
-    .link {
-        text-align: center;
-    }
+}
+
+.link {
+    text-align: center;
+}
+
 .news_and_articles {
     margin: 40px auto;
     max-width: 1200px;
     box-sizing: border-box;
 }
+
 .news h2 {
     font-size: 12px;
     font-weight: 600;
@@ -817,6 +924,7 @@ padding: 15px;
     line-height: 21.6px;
     font-family: "Montserrat", sans-serif;
 }
+
 .news h3 {
     font-size: 38px;
     color: #051f34;
@@ -828,6 +936,7 @@ padding: 15px;
     font-weight: 400;
     font-style: normal;
 }
+
 .news p {
     font-size: 20px;
     color: rgb(68, 86, 101);
@@ -838,15 +947,18 @@ padding: 15px;
     font-style: italic;
     font-family: "Sorts Mill Goudy", serif;
 }
+
 .articles {
     display: flex;
     margin: 25px 0 0 0;
     padding: 0 15px;
 }
+
 .articles img {
     max-width: 375px;
     max-height: 373px;
 }
+
 .articles .articles_date {
     font-size: 11px;
     margin: 20px 0 0 0;
@@ -858,6 +970,7 @@ padding: 15px;
     font-family: "Montserrat", sans-serif;
     padding: 0;
 }
+
 .articles h4 {
     margin: 20px 0 0 0;
     font-size: 22px;
@@ -867,6 +980,7 @@ padding: 15px;
     color: #051f34;
     font-family: "Sorts Mill Goudy", serif;
 }
+
 .articles p {
     margin: 20px 0 0 0;
     font-size: 16px;
@@ -878,6 +992,7 @@ padding: 15px;
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
+
 .articles .read_more {
     margin: 20px 0 0 0;
     font-size: 11px;
@@ -888,16 +1003,19 @@ padding: 15px;
     text-decoration-style: solid;
     cursor: pointer;
 }
+
 .articles a {
     color: #051f34;
     text-decoration: none;
 }
+
 .carousel-item img {
     max-height: 124px;
     max-width: 126px;
     margin: auto;
     text-align: center;
 }
+
 .carousel-item p {
     margin: 20px 0 0 0;
     font-size: 18px;
@@ -907,6 +1025,7 @@ padding: 15px;
     color: #051f34;
     text-align: center;
 }
+
 .carousel-item blockquote {
     margin: 25px 0 0 0;
     font-size: 22px;
@@ -915,14 +1034,17 @@ padding: 15px;
     font-family: "Sorts Mill Goudy", serif;
     color: #051f34;
 }
+
 .stores {
     display: flex;
 }
+
 .stores_img_box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: 1200px;
 }
+
 .stores .stores_img {
     display: flex;
     flex-direction: row;
@@ -930,11 +1052,13 @@ padding: 15px;
     margin: 15px;
     box-sizing: border-box;
 }
+
 .stores img {
     max-width: 100px;
     max-height: 256px;
 }
-.collection-block{
+
+.collection-block {
     background-image: url(../img/coll-back.webp);
     background-size: 1800px;
     background-repeat: no-repeat;
@@ -943,20 +1067,24 @@ padding: 15px;
     height: 600px;
     padding: 0px 1000px 0px 0px;
     margin: 0px 0px 0px 0px;
-    
+
 }
-.categories-block{
+
+.categories-block {
     margin: 50px;
 }
-.limedi{
+
+.limedi {
     font-family: "Sorts Mill Goudy", serif;
     font-size: 22px;
 }
-.colp{
+
+.colp {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
 }
-.button1{
+
+.button1 {
     font-weight: 700;
     font-size: 15px;
     background: var(--second-accent--);
@@ -964,7 +1092,8 @@ padding: 15px;
     padding: 15px 20px;
     text-decoration: none;
 }
-.button1:hover{
-    color:black;
+
+.button1:hover {
+    color: black;
     background: #fff;
 }
