@@ -1046,7 +1046,26 @@ textarea {
 }
 
 .categories-block {
-    margin: 50px;
+}
+.nre{
+    margin: 0 0 0 100px;
+    display: flex;
+}
+.cater{
+    text-align: center;
+}
+.categories{
+    color: #D9B5A1;
+    font-size: 12px;
+}
+.choosef{
+    font-size: 54px;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+.choosej{
+    font-size: 22px;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
 }
 
 .limedi {
