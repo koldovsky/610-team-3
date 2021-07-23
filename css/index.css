@@ -974,14 +974,10 @@ textarea {
 
 #gallery {
     background: #FFF;
-<<<<<<< HEAD
 }
 #gallery .btn  {
     display: flex;
 justify-content: space-around;
-=======
-    background-size: 100%;
->>>>>>> b568bdf1b9a4e96d2b00e564e4f4583436f36869
 }
 
 .gallery-title {
