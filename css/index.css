@@ -974,6 +974,7 @@ textarea {
 
 #gallery {
     background: #FFF;
+    background-size: 100%;
 }
 
 .gallery-title {
