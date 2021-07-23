@@ -1,6 +1,6 @@
 function openStore(evt, storeName) {
     // Declare all variables
-    var i, tabcontent, tablinks;
+    let i, tabcontent, tablinks;
 
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -24,8 +24,8 @@ const navSlide = () => {
     const nav = document.querySelector('.menu');
 
     burger.addEventListener('click', () => {
-        nav.classList.toggle('nav-active');
-        burger.classList.toggle('toggle');
+        nav.classList.toggle('.nav-active');
+        burger.classList.toggle('.toggle');
     });
 }
 navSlide();
@@ -60,9 +60,20 @@ let currentSlide = 0;
     showCurrentSlide();
     setInterval(nextSlide, 6000);
 
+//timer
+
+let counter = -1;
+
+function timer() {
+    counter++;
+    document.getElementById("count").innerHTML = counter;
+    setTimeout("timer()", 1000);
+}
+navSlide();
+
 // clock footer
 function updateClock() {
-const clock = document.querySelector(".clock");
-clock.innerText = (new Date()).toLocaleTimeString();
+    const clock = document.querySelector(".clock");
+    clock.innerText = new Date().toLocaleTimeString();
 }
 setInterval(updateClock, 1000);

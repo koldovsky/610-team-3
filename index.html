@@ -12,7 +12,7 @@
     <link href="css/index.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body onload="timer()">
     <header>
         <nav>
             <a class="logo" href="index.html">
@@ -166,7 +166,7 @@
         </div>
             </div>
             <div class="nre">
-                <p>Necklaces</p>
+                <p class="nectext">Necklaces</p>
                 <a href="#new-collection">Discover</a>
                 <img class="necl" src="img/necklaces.webp" alt="necklaces">
                 <p>Rings</p>
@@ -177,290 +177,303 @@
                 <img class="ear" src="img/earrings.webp" alt="earrings">
             </div>
         </div>
-        <!-- Section _Beauty_ -->
-        <div class="beauty-block">
-            <div class="container">
-                <div class="beauty__row">
-                    <div class="beauty__img">
-                        <img src="img/beauty-bg2.png" alt="">
-                    </div>
-                    <div class="beauty__body">
-                        <div class="beauty__pre-title pre-title">
-                            <h4>DESIGNER JEWELRY</h4>
-                        </div>
-                        <div class="beauty__title title">
-                            <h2>Gentle Beauty in You</h2>
-                        </div>
-                        <div class="beauty__list">
-                            <p>We create fine jewelry that helps you stand out of the crowd:</p>
-                            <ul>
-                                <li>Emphasizes your natural beauty.</li>
-                                <li>Suits any outfits you prefer.</li>
-                                <li>Delights you every day with its exclusive design.</li>
-                            </ul>
-                        </div>
-                        <div class="beauty__btn">
-                            <a href="#">— Discover</a>
-                        </div>
-                    </div>
-                </div>
+    <!-- Section _Beauty_ -->
+    <div class="beauty-block">
+      <div class="container">
+        <div class="beauty__row">
+          <div class="beauty__img">
+            <img src="img/beauty-bg2.png" alt="" />
+          </div>
+          <div class="beauty__body">
+            <div class="beauty__pre-title pre-title">
+              <h4>DESIGNER JEWELRY</h4>
             </div>
-        </div>
-        <!-- Section _Beauty_ -->
-
-
-        <!-- Section _New-Collection_ -->
-        <div class="new-collection-block">
-            <div class="container">
-                <div class="new-collection__header">
-                    <div class="new-collection__pre-title pre-title">
-                        <h4>NEW IN</h4>
-                    </div>
-                    <div class="new-collection__title">
-                        <h2>New Collection</h2>
-                    </div>
-                    <div class="new-collection__text">
-                        <p>Shine bright in our new 2021 collection of fine jewelry!</p>
-                    </div>
-                </div>
-                <div class="new-collection__store">
-                    <div class="new-collection__tab">
-                        <button class="tablinks active" onclick="openStore(event, 'Earrings')">Earrings</button>
-                        <button class="tablinks" onclick="openStore(event, 'Rings')">Rings</button>
-                        <button class="tablinks" onclick="openStore(event, 'Necklaces')">Necklaces</button>
-                    </div>
-
-                    <!-- Tab-_content_earings-->
-
-                    <div id="Earrings" class="tabcontent" style="display: block;">
-                        <div class="earrings__row">
-                            <div class="item">
-                                <div class="item__img">
-                                    <img src="img/ear-1.png" alt="">
-                                </div>
-                                <div class="item__link">
-                                    <a href="#">Bagels</a>
-                                </div>
-                                <div class="item__text">
-                                    <p>$199,00</p>
-                                </div>
-                                <div class="item__btn">
-                                    <button> — Add to cart</button>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="item__img">
-                                    <img src="img/ear-2.png" alt="">
-                                </div>
-                                <div class="item__link">
-                                    <a href="#">Dalida</a>
-                                </div>
-                                <div class="item__text">
-                                    <p>$199,00</p>
-                                </div>
-                                <div class="item__btn">
-                                    <button> — Add to cart</button>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="item__img">
-                                    <img src="img/ear-3.png" alt="">
-                                </div>
-                                <div class="item__link">
-                                    <a href="#">Fantasy</a>
-                                </div>
-                                <div class="item__text">
-                                    <p>$249,00</p>
-                                </div>
-                                <div class="item__btn">
-                                    <button> — Add to cart</button>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="item__img">
-                                    <img src="img/ear-4.png" alt="">
-                                </div>
-                                <div class="item__link">
-                                    <a href="#">Keys</a>
-                                </div>
-                                <div class="item__text">
-                                    <p>$299,00</p>
-                                </div>
-                                <div class="item__btn">
-                                    <button> — Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Tab-_content_rings -->
-                    <div id="Rings" class="tabcontent">
-                        <div class="rings__row">
-                            <div class="item">
-                                <div class="item__img">
-                                    <img src="img/ring1.png" alt="">
-                                </div>
-                                <div class="item__link">
-                                    <a href="#">Jillian</a>
-                                </div>
-                                <div class="item__text">
-                                    <p>$399,00</p>
-                                </div>
-                                <div class="item__btn">
-                                    <button> — Add to cart</button>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="item__img">
-                                    <img src="img/ring2.png" alt="">
-                                </div>
-                                <div class="item__link">
-                                    <a href="#">Genny</a>
-                                </div>
-                                <div class="item__text">
-                                    <p>$599,00</p>
-                                </div>
-                                <div class="item__btn">
-                                    <button> — Add to cart</button>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="item__img">
-                                    <img src="img/ring3.png" alt="">
-                                </div>
-                                <div class="item__link">
-                                    <a href="#">Yolanda</a>
-                                </div>
-                                <div class="item__text">
-                                    <p>$199,00</p>
-                                </div>
-                                <div class="item__btn">
-                                    <button> — Add to cart</button>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="item__img">
-                                    <img src="img/ring4.png" alt="">
-                                </div>
-                                <div class="item__link">
-                                    <a href="#">Eternity</a>
-                                </div>
-                                <div class="item__text">
-                                    <p>$249,00</p>
-                                </div>
-                                <div class="item__btn">
-                                    <button> — Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- Tab-_content_necklaces -->
-                    <div id="Necklaces" class="tabcontent">
-                        <div class="necklaces__row">
-                            <div class="item">
-                                <div class="item__img">
-                                    <img src="img/nec-1.png" alt="">
-                                </div>
-                                <div class="item__link">
-                                    <a href="#">Cleopatra</a>
-                                </div>
-                                <div class="item__text">
-                                    <p>$399,00</p>
-                                </div>
-                                <div class="item__btn">
-                                    <button> — Add to cart</button>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="item__img">
-                                    <img src="img/nec-2.png" alt="">
-                                </div>
-                                <div class="item__link">
-                                    <a href="#">Sky</a>
-                                </div>
-                                <div class="item__text">
-                                    <p>$299,00</p>
-                                </div>
-                                <div class="item__btn">
-                                    <button> — Add to cart</button>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="item__img">
-                                    <img src="img/nec-3.png" alt="">
-                                </div>
-                                <div class="item__link">
-                                    <a href="#">Athena</a>
-                                </div>
-                                <div class="item__text">
-                                    <p>$199,00</p>
-                                </div>
-                                <div class="item__btn">
-                                    <button> — Add to cart</button>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="item__img">
-                                    <img src="img/nec-4.png" alt="">
-                                </div>
-                                <div class="item__link">
-                                    <a href="#">Delight</a>
-                                </div>
-                                <div class="item__text">
-                                    <p>$399,00</p>
-                                </div>
-                                <div class="item__btn">
-                                    <button> — Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="beauty__title title">
+              <h2>Gentle Beauty in You</h2>
             </div>
-        </div>
-
-        <!-- Section _New-Collection-Preview_ -->
-
-
-        <div class="new-collection-preview-block">
-            <div class="container">
-                <div class="new-collection-preview__row">
-                    <div class="new-collection-preview__column1">
-                        <div class="column1__img">
-                            <img src="img/pre-jewel11.webp" alt="">
-                        </div>
-                        <div class="column1__title">
-                            <p>— Earrings</p>
-                        </div>
-                        <div class="column1__text">
-                            <p><span>*</span> Golden Sun</p> <span>$299</span>
-
-                        </div>
-
-                    </div>
-
-                    <div class="new-collection-preview__column2">
-                        <img src="img/pre-jewel2.png" alt="">
-                    </div>
-
-                    <div class="new-collection-preview__column3">
-                        <div class="column3__pre-title">
-                            <h4>NEW ARRIVALS</h4>
-                        </div>
-                        <div class="column3__title">
-                            <h2>New Collection of Fine Jewelry.</h2>
-                        </div>
-                        <div class="column3__btn">
-                            <a href="#">— Shop now</a>
-                        </div>
-
-                    </div>
-
-                </div>
+            <div class="beauty__list">
+              <p>
+                We create fine jewelry that helps you stand out of the crowd:
+              </p>
+              <ul>
+                <li>Emphasizes your natural beauty.</li>
+                <li>Suits any outfits you prefer.</li>
+                <li>Delights you every day with its exclusive design.</li>
+              </ul>
             </div>
+            <div class="beauty__btn">
+              <a href="#">— Discover</a>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- Section _Beauty_ -->
+
+    <!-- Section _New-Collection_ -->
+    <div class="new-collection-block">
+      <div class="container">
+        <div class="new-collection__header">
+          <div class="new-collection__pre-title pre-title">
+            <h4>NEW IN</h4>
+          </div>
+          <div class="new-collection__title">
+            <h2>New Collection</h2>
+          </div>
+          <div class="new-collection__text">
+            <p>Shine bright in our new 2021 collection of fine jewelry!</p>
+          </div>
+        </div>
+        <div class="new-collection__store">
+          <div class="new-collection__tab">
+            <button
+              class="tablinks active"
+              onclick="openStore(event, 'Earrings')"
+            >
+              Earrings
+            </button>
+            <button class="tablinks" onclick="openStore(event, 'Rings')">
+              Rings
+            </button>
+            <button class="tablinks" onclick="openStore(event, 'Necklaces')">
+              Necklaces
+            </button>
+          </div>
+
+          <!-- Tab-_content_earings-->
+
+          <div id="Earrings" class="tabcontent" style="display: block">
+            <div class="earrings__row">
+              <div class="item">
+                <div class="item__img">
+                  <img src="img/ear-1.png" alt="" />
+                </div>
+                <div class="item__link">
+                  <a href="#">Bagels</a>
+                </div>
+                <div class="item__text">
+                  <p>$199,00</p>
+                </div>
+                <div class="item__btn">
+                  <button>— Add to cart</button>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item__img">
+                  <img src="img/ear-2.png" alt="" />
+                </div>
+                <div class="item__link">
+                  <a href="#">Dalida</a>
+                </div>
+                <div class="item__text">
+                  <p>$199,00</p>
+                </div>
+                <div class="item__btn">
+                  <button>— Add to cart</button>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item__img">
+                  <img src="img/ear-3.png" alt="" />
+                </div>
+                <div class="item__link">
+                  <a href="#">Fantasy</a>
+                </div>
+                <div class="item__text">
+                  <p>$249,00</p>
+                </div>
+                <div class="item__btn">
+                  <button>— Add to cart</button>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item__img">
+                  <img src="img/ear-4.png" alt="" />
+                </div>
+                <div class="item__link">
+                  <a href="#">Keys</a>
+                </div>
+                <div class="item__text">
+                  <p>$299,00</p>
+                </div>
+                <div class="item__btn">
+                  <button>— Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab-_content_rings -->
+          <div id="Rings" class="tabcontent">
+            <div class="rings__row">
+              <div class="item">
+                <div class="item__img">
+                  <img src="img/ring1.png" alt="" />
+                </div>
+                <div class="item__link">
+                  <a href="#">Jillian</a>
+                </div>
+                <div class="item__text">
+                  <p>$399,00</p>
+                </div>
+                <div class="item__btn">
+                  <button>— Add to cart</button>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item__img">
+                  <img src="img/ring2.png" alt="" />
+                </div>
+                <div class="item__link">
+                  <a href="#">Genny</a>
+                </div>
+                <div class="item__text">
+                  <p>$599,00</p>
+                </div>
+                <div class="item__btn">
+                  <button>— Add to cart</button>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item__img">
+                  <img src="img/ring3.png" alt="" />
+                </div>
+                <div class="item__link">
+                  <a href="#">Yolanda</a>
+                </div>
+                <div class="item__text">
+                  <p>$199,00</p>
+                </div>
+                <div class="item__btn">
+                  <button>— Add to cart</button>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item__img">
+                  <img src="img/ring4.png" alt="" />
+                </div>
+                <div class="item__link">
+                  <a href="#">Eternity</a>
+                </div>
+                <div class="item__text">
+                  <p>$249,00</p>
+                </div>
+                <div class="item__btn">
+                  <button>— Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab-_content_necklaces -->
+          <div id="Necklaces" class="tabcontent">
+            <div class="necklaces__row">
+              <div class="item">
+                <div class="item__img">
+                  <img src="img/nec-1.png" alt="" />
+                </div>
+                <div class="item__link">
+                  <a href="#">Cleopatra</a>
+                </div>
+                <div class="item__text">
+                  <p>$399,00</p>
+                </div>
+                <div class="item__btn">
+                  <button>— Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item__img">
+                  <img src="img/nec-2.png" alt="" />
+                </div>
+                <div class="item__link">
+                  <a href="#">Sky</a>
+                </div>
+                <div class="item__text">
+                  <p>$299,00</p>
+                </div>
+                <div class="item__btn">
+                  <button>— Add to cart</button>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item__img">
+                  <img src="img/nec-3.png" alt="" />
+                </div>
+                <div class="item__link">
+                  <a href="#">Athena</a>
+                </div>
+                <div class="item__text">
+                  <p>$199,00</p>
+                </div>
+                <div class="item__btn">
+                  <button>— Add to cart</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item__img">
+                  <img src="img/nec-4.png" alt="" />
+                </div>
+                <div class="item__link">
+                  <a href="#">Delight</a>
+                </div>
+                <div class="item__text">
+                  <p>$399,00</p>
+                </div>
+                <div class="item__btn">
+                  <button>— Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section _New-Collection-Preview_ -->
+
+    <div class="new-collection-preview-block">
+      <div class="container">
+        <div class="new-collection-preview-block__row">
+          <div class="new-collection-preview-block__left">
+            <div class="left__img">
+              <img src="img/pre-jewel11.webp" alt="" />
+            </div>
+            <div class="left__title">
+              <p>— Earrings</p>
+            </div>
+            <div class="left__text">
+              <p><span>*</span>Golden Sun <span>$299</span></p>
+            </div>
+          </div>
+          <div class="new-collection-preview-block__right">
+            <div class="right__pre-title">
+              <p>NEW ARRIVALS</p>
+            </div>
+            <div class="right__title">
+              <h2>New Collection</h2>
+              <h3>of Fine Jewelry</h3>
+            </div>
+            <div class="right__btn">
+              <a href="#"> — SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="timer-js-wrapper">
+    <div class="timer-js">
+      <p>Секунд пройшло : <span id="count">0</span></p>
+    </div>
+   </div>
+   
         <!--Section Our News and Articles-->
         <section class="news_and_articles" id="testimonials">
             <div class="news">
