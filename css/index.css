@@ -971,13 +971,16 @@ textarea {
     max-width: 450px;
     display: block;
 }
-
 #gallery {
     background: #FFF;
 }
-#gallery .btn  {
-    display: flex;
-justify-content: space-around;
+.gallery-carousel {
+    display:grid;
+    grid-template-columns: 15% 70% 15%;
+}
+.next {
+    display:flex;
+    align-content: space-around;
 }
 
 .gallery-title {
