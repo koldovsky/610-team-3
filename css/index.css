@@ -176,7 +176,7 @@ nav .menu {
     }
 }
 
-.navigation-active {
+.nav-active {
     transform: translateX(0%);
 }
 
@@ -1186,9 +1186,7 @@ textarea {
 
 }
 
-.categories-block {
-
-}
+.categories-block {}
 
 .nre {
     margin: 0 0 0 0;
@@ -1284,7 +1282,8 @@ textarea {
     background: white;
     margin: 0 25px 0px 25px;
 }
-.nectext{
+
+.nectext {
     font-size: 50px;
     position: absolute;
     color: white;
