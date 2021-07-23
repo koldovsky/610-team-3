@@ -176,7 +176,7 @@ nav .menu {
     }
 }
 
-.navigation-active {
+.nav-active {
     transform: translateX(0%);
 }
 
@@ -974,10 +974,14 @@ textarea {
 
 #gallery {
     background: #FFF;
+<<<<<<< HEAD
 }
 #gallery .btn  {
     display: flex;
 justify-content: space-around;
+=======
+    background-size: 100%;
+>>>>>>> b568bdf1b9a4e96d2b00e564e4f4583436f36869
 }
 
 .gallery-title {
@@ -1190,9 +1194,7 @@ justify-content: space-around;
 
 }
 
-.categories-block {
-
-}
+.categories-block {}
 
 .nre {
     margin: 0 0 0 0;
@@ -1288,7 +1290,8 @@ justify-content: space-around;
     background: white;
     margin: 0 25px 0px 25px;
 }
-.nectext{
+
+.nectext {
     font-size: 50px;
     position: absolute;
     color: white;

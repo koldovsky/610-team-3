@@ -24,8 +24,8 @@ const navSlide = () => {
     const nav = document.querySelector('.menu');
 
     burger.addEventListener('click', () => {
-        nav.classList.toggle('.nav-active');
-        burger.classList.toggle('.toggle');
+        nav.classList.toggle('nav-active');
+        burger.classList.toggle('toggle');
     });
 }
 navSlide();
@@ -69,7 +69,6 @@ function timer() {
     document.getElementById("count").innerHTML = counter;
     setTimeout("timer()", 1000);
 }
-navSlide();
 
 // clock footer
 function updateClock() {
