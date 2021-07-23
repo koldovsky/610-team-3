@@ -869,15 +869,15 @@ textarea {
 }
 
 .necl {
-    width: 200px;
+    width: 350px;
 }
 
 .rin {
-    width: 200px;
+    width: 350px;
 }
 
 .ear {
-    width: 200px;
+    width: 350px;
 }
 
 .faq {
@@ -1146,10 +1146,12 @@ textarea {
 
 }
 
-.categories-block {}
+.categories-block {
+
+}
 
 .nre {
-    margin: 0 0 0 100px;
+    margin: 0 0 0 0;
     display: flex;
 }
 
@@ -1241,4 +1243,11 @@ textarea {
 .product-1 {
     background: white;
     margin: 0 25px 0px 25px;
+}
+.nectext{
+    font-size: 50px;
+    position: absolute;
+    color: white;
+    padding-left: 110px;
+    padding-top: 170px;
 }
