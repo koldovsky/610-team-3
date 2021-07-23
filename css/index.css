@@ -868,6 +868,7 @@ textarea {
 }
 #gallery {
     background:#FFF;
+    background-size: 100%;
 }
 .gallery-title {
     font-family: 'Sorts Mill Goudy', serif;

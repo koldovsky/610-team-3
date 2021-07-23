@@ -29,6 +29,36 @@ const navSlide = () => {
     });
 }
 navSlide();
+//  gallery carousel
+const slides = [
+    'img/woman_earring.jpg',
+    'img/woman_ring-neck.webp',
+    'img/woman-earings-eyes.jpeg',
+    'img/woman-ring.jpeg',
+    'img/chineese_woman_jewerly.jpeg'
+]
+function showCurrentSlide() {
+    const slideTarget = document.querySelector('.current-slide');
+    slideTarget.src = slides[currentSlide];
+}
+let currentSlide = 0;
+    function nextSlide() {
+        currentSlide++;
+        if (currentSlide >= slides.length) currentSlide = 0;
+        showCurrentSlide();
+    }
+    
+    function prevSlide() {
+        currentSlide--;
+        if (currentSlide < 0) currentSlide = slides.length - 1;
+        showCurrentSlide();
+    }
+    
+    document.querySelector('.next').addEventListener('click', nextSlide);
+    document.querySelector('.prev').addEventListener('click', prevSlide);
+    
+    showCurrentSlide();
+    setInterval(nextSlide, 6000);
 
 // clock footer
 function updateClock() {
