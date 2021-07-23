@@ -973,12 +973,11 @@ textarea {
 }
 
 #gallery {
-<<<<<<< HEAD
-    background:#FFF;
-    background-size: 100%;
-=======
     background: #FFF;
->>>>>>> 616c32cd67aa0f98653f73cce208831ecd43044c
+}
+#gallery .btn  {
+    display: flex;
+justify-content: space-around;
 }
 
 .gallery-title {
