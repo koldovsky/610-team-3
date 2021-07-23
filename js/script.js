@@ -38,3 +38,11 @@ function timer() {
   document.getElementById("count").innerHTML = counter;
   setTimeout("timer()", 1000);
 }
+navSlide();
+
+// clock footer
+function updateClock() {
+  const clock = document.querySelector(".clock");
+  clock.innerText = new Date().toLocaleTimeString();
+}
+setInterval(updateClock, 1000);

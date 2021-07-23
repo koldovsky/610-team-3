@@ -933,7 +933,9 @@ textarea {
     max-width: 450px;
     display: block;
 }
-
+#gallery {
+    background:#FFF;
+}
 .gallery-title {
     font-family: 'Sorts Mill Goudy', serif;
     font-size: 54px;
