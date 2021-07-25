@@ -21,7 +21,7 @@ function openStore(evt, storeName) {
 //burger
 const navSlide = () => {
     const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.menu');
+    const nav = document.querySelector('.nav-links');
 
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
@@ -37,28 +37,30 @@ const slides = [
     'img/woman-ring.jpeg',
     'img/chineese_woman_jewerly.jpeg'
 ]
+
 function showCurrentSlide() {
     const slideTarget = document.querySelector('.current-slide');
     slideTarget.src = slides[currentSlide];
 }
 let currentSlide = 0;
-    function nextSlide() {
-        currentSlide++;
-        if (currentSlide >= slides.length) currentSlide = 0;
-        showCurrentSlide();
-    }
-    
-    function prevSlide() {
-        currentSlide--;
-        if (currentSlide < 0) currentSlide = slides.length - 1;
-        showCurrentSlide();
-    }
-    
-    document.querySelector('.next').addEventListener('click', nextSlide);
-    document.querySelector('.prev').addEventListener('click', prevSlide);
-    
+
+function nextSlide() {
+    currentSlide++;
+    if (currentSlide >= slides.length) currentSlide = 0;
     showCurrentSlide();
-    setInterval(nextSlide, 6000);
+}
+
+function prevSlide() {
+    currentSlide--;
+    if (currentSlide < 0) currentSlide = slides.length - 1;
+    showCurrentSlide();
+}
+
+document.querySelector('.next').addEventListener('click', nextSlide);
+document.querySelector('.prev').addEventListener('click', prevSlide);
+
+showCurrentSlide();
+setInterval(nextSlide, 6000);
 
 //timer
 
