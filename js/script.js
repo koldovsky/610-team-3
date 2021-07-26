@@ -1,23 +1,30 @@
 function openStore(evt, storeName) {
-  // Declare all variables
-  let i, tabcontent, tablinks;
-
   // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
+  const tabcontent = document.getElementsByClassName("tabcontent");
+  for (let i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
 
   // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  const tablinks = document.getElementsByClassName("tablinks");
+  for (let i = 0; i < tablinks.length; i++) {
+    tablinks[i].classList.remove("active");
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(storeName).style.display = "block";
-  evt.currentTarget.className += " active";
+  evt.currentTarget.classList.add("active");
 }
+document
+  .getElementById("Earrings")
+  .addEventListener("click", (ev) => openStore(ev, "Earrings"));
+document
+  .getElementById("Rings")
+  .addEventListener("click", (ev) => openStore(ev, "Rings"));
+document
+  .getElementById("Necklaces")
+  .addEventListener("click", (ev) => openStore(ev, "Necklaces"));
+
 //burger
 const navSlide = () => {
   const burger = document.querySelector(".burger");
@@ -36,8 +43,9 @@ let counter = -1;
 function timer() {
   counter++;
   document.getElementById("count").innerHTML = counter;
-  setTimeout("timer()", 1000);
+  setTimeout(timer, 1000);
 }
+timer();
 navSlide();
 
 // clock footer
