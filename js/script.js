@@ -84,14 +84,14 @@ const quotesSlides = [
     "img/quotes/A.svg",
     "img/quotes/M.svg",
     "img/quotes/V.svg",
-  ];
-  const quotesAutors = ["Alice Meterson", "Mindy Owler", "Victoria Roulson"];
-  const blockquotes = [
+];
+const quotesAutors = ["Alice Meterson", "Mindy Owler", "Victoria Roulson"];
+const blockquotes = [
     "«I love every item made by Aurora. Every time I open their website, I want to buy everything! The quality is very good, and looking at these items, there's no doubt it's the designer jewelry.»",
     "«I love exclusive jewelry. Unfortunately, even the big modern brands make pretty typical products that are similar to one another. Aurora is completely different!»",
     "«Thanks for my new earrings! I still receive a huge number of compliments on my jewelry and I am happy to say that it is the Aurora brand.»",
-  ];
-    
+];
+
 function showFirstSlide() {
     const activeTargetImage = document.querySelector(".quotes-current-slide");
     const activeTargetAutor = document.querySelector(".autors-slide");
@@ -101,6 +101,7 @@ function showFirstSlide() {
     activeTargetBlockquote.innerText = blockquotes[0];
 }
 showFirstSlide()
+
 function showSecondSlide() {
     const activeTargetImage = document.querySelector(".quotes-current-slide");
     const activeTargetAutor = document.querySelector(".autors-slide");
@@ -109,6 +110,7 @@ function showSecondSlide() {
     activeTargetAutor.innerText = quotesAutors[1];
     activeTargetBlockquote.innerText = blockquotes[1];
 }
+
 function showThirdSlide() {
     const activeTargetImage = document.querySelector(".quotes-current-slide");
     const activeTargetAutor = document.querySelector(".autors-slide");
