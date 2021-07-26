@@ -6,6 +6,137 @@
 
 /*italic  font-family: 'Sorts Mill Goudy', serif;
 font-style: italic;*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 :root {
     --light-shade--: #FFF;
     --dark-shade--: #051F34;
@@ -45,7 +176,7 @@ main {
     box-sizing: border-box;
 }
 
-.item .item-description .stock {
+.item .item-description .item-stock {
     color: #5b914b;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -53,7 +184,7 @@ main {
     margin: 6px 0;
 }
 
-.item .item-description .name {
+.item .item-description .item-name {
     color: var(--dark-shade--);
     font-size: 30px;
     font-weight: lighter;
@@ -61,7 +192,7 @@ main {
     font-family: 'Sorts Mill Goudy', serif;
 }
 
-.item .item-description .code {
+.item .item-description .item-code {
     color: var(--dark-shade--);
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
@@ -69,12 +200,12 @@ main {
     margin-bottom: 35px;
 }
 
-.item .item-description .price {
+.item .item-description .item-price {
     color: var(--dark-shade--);
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: bolder;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .item .item-description input[type="number"] {
@@ -99,4 +230,18 @@ main {
 .item .item-description .buy {
     display: flex;
     flex-direction: row;
+}
+
+.new-collection-description p {
+    color: var(--dark-shade--);
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.description-p p {
+    font-weight: 400;
+    font-size: 22px;
 }
