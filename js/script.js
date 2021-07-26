@@ -78,12 +78,6 @@ function updateClock() {
     clockFoot.innerText = new Date().toLocaleTimeString();
 }
 setInterval(updateClock, 1000);
-/*
-//page loading
-$(window).on("load", function() {
-    $(".loader-wrapper").fadeOut("slow");
-});
-*/
 
 // Quotes 
 const quotesSlides = [
