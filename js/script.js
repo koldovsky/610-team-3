@@ -79,7 +79,6 @@ function timer() {
   setTimeout(timer, 1000);
 }
 timer();
-navSlide();
 
 // clock footer
 function updateClock() {
