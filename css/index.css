@@ -1087,8 +1087,8 @@ textarea {
     text-align: center;
     background-image: url(../img/backgroundFooter.svg);
     background-size: cover;
-    background-position: center;
-    min-height: 112px;
+    background-position: innerit;
+    min-height: 120px;
     min-width: auto;
     padding: 50px 10px 10px 10px;
 }
@@ -1106,10 +1106,13 @@ textarea {
         display: flex;
         justify-content: space-evenly;
     }
+    .menu_link {
+    background-position: innerit;
+    min-height: 240px;
+    min-width: auto;
+    padding: 135px 10px 10px 10px;
+    }
 }
-
-
-
 .news_and_articles {
     margin: 40px auto;
     max-width: 1200px;
