@@ -1300,8 +1300,26 @@ textarea {
 .nre {
     margin: 0 0 0 0;
     display: flex;
+    gap: 20px;
 }
-
+.ringcont{
+    display: flex;
+}
+.button2{
+    position: absolute;
+    padding-left: 14px;
+    font-weight: 500;
+    font-size: 20px;
+    background: var(--second-accent--);
+    color: #fff;
+    margin: 250px 0px 0px 120px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.button2:hover {
+    color: black;
+    background: #fff;
+}
 .cater {
     text-align: center;
 }
@@ -1397,5 +1415,12 @@ textarea {
     position: absolute;
     color: white;
     padding-left: 110px;
+    padding-top: 170px;
+}
+.neclextx{
+    font-size: 50px;
+    position: absolute;
+    color: white;
+    padding-left: 70px;
     padding-top: 170px;
 }
