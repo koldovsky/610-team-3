@@ -958,7 +958,7 @@ textarea {
     padding: 15px;
 }
 
-.visible-string {
+.accordion-visible {
     background-color: #F6F4F2;
     color: #051F34;
     cursor: pointer;
@@ -970,14 +970,17 @@ textarea {
     font-family: 'Sorts Mill Goudy', serif;
     transition: max-height 0.2s ease-out;
     border-bottom: 1px solid rgba(68, 86, 101, 0.3);
+    transition: all 1s;
+    
+    
 }
-
 .active,
-.visible-string {
+.accordion-visible {
     background-color: #F6F4F2;
+    transition: all 1s;
 }
 
-.visible-string:after {
+.accordion-visible:after {
     content: '\002B';
     font-size: 26px;
     color: #D9B5A1;
@@ -985,20 +988,17 @@ textarea {
     font-family: 'Sorts Mill Goudy', serif;
     float: right;
     margin-left: 5px;
-    transition: 1s;
+    transition: all 1s;
 }
-
 .active,
-.visible-string:hover {
-    background-color: #F6F4F2;
-    transition: 1s;
+.accordion-visible:hover {
+    background-color:rgba(217, 181, 161, 0.3);
+    transition: linear 1s;
 }
-
 .active:after {
     content: "\2212";
 }
-
-.unvisible-string {
+.accordion-unvisible {
     content: "\2212";
     padding: 0 18px;
     background-color: #F6F4F2;
@@ -1006,7 +1006,7 @@ textarea {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     overflow: hidden;
-    transition: max-height 0.6s ease-out;
+    transition: linear 1s;
 }
 
 .wrapper-question {

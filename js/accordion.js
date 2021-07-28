@@ -1,7 +1,7 @@
 // accordion
-const acc = document.getElementsByClassName("visible-string");
-for (let v = 0; v <= acc.length; v++) {
-    acc[v].addEventListener("click", function() {
+const accordion = Array.from(document.getElementsByClassName("accordion-visible"));
+accordion.forEach( elem => {
+    elem.addEventListener("click", function() {
         this.classList.toggle('active');
         const panel = this.nextElementSibling;
         if (panel.style.display === "block") {
@@ -10,4 +10,4 @@ for (let v = 0; v <= acc.length; v++) {
             panel.style.display = "block";
         }
     });
-}
+});
