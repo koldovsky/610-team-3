@@ -38,11 +38,11 @@ const navSlide = () => {
 navSlide();
 //  gallery carousel
 const slides = [
-  "img/woman_earring.jpg",
-  "img/woman_ring-neck.webp",
-  "img/woman-earings-eyes.jpeg",
-  "img/woman-ring.jpeg",
-  "img/chineese_woman_jewerly.jpeg",
+  "img/gold-ring.jpg",
+  "img/silver-ring.jpg",
+  "img/woman-ear-ring.jpg",
+  "img/gold-two-ring.jpg",
+  "img/necklaces.jpg",
 ];
 
 function showCurrentSlide() {
