@@ -680,9 +680,39 @@
         <section id="gallery">
             <h2 class="gallery-title">Gallery</h2>
             <div class="gallery-carousel">
-                <div><button class="btn btn-primary prev">Prev</button></div>
-                <div><img class="current-slide d-block w-50 mx-auto" src="" alt="Carousel Slide"></div>
-                <div><button class="btn btn-primary next">Next</button></div>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/gold-ring.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/gold-two-ring.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/woman-ear-ring.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/woman-necklaces.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/womanEarings-profile.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/womanEarrings-face.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/woman-Earrings.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </div>
         </section>
     </main>
@@ -734,6 +764,7 @@
     <script src="js/script.js"></script>
     <script src="js/countdown.js"></script>
     <script src="js/accordion.js"></script>
+    <!-- <script src="js/gallery-carousel.js"></script> -->
 </body>
 
 </html>
