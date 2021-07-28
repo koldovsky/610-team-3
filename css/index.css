@@ -1463,7 +1463,7 @@ textarea {
     text-align: center;
 }
 
-.card {
+.countdown-container .card {
     position: relative;
     width: 20vw;
     height: 200px;
@@ -1473,12 +1473,12 @@ textarea {
     background-color: var(--first-accent--);
 }
 
-.time {
+.countdown-container .time {
     font-size: 80px;
     color: var(--dark-shade--);
 }
 
-.card span {
+.countdown-container .card span {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -1488,11 +1488,11 @@ textarea {
 }
 
 @media all and (max-width: 768px) {
-    .time {
+    .countdown-container .time {
         font-size: 60px;
     }
 
-    .card span {
+    .countdown-container .card span {
         font-size: 12px;
     }
 }
