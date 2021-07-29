@@ -1448,15 +1448,28 @@ textarea {
     flex-direction: row;
 }
 
-.countdown__block h3 {
+.countdown__block h4 {
     color: var(--second-accent--);
-    font-size: 20px;
+    font-size: 12px;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 8vh;
+    font-family: 'Sorts Mill Goudy', serif;
+    margin-bottom: 18px;
     text-align: center;
+    font-style: normal;
+    letter-spacing: 0.142em;
+    font-weight: 900;
 }
-
+.countdown__block h3 {
+    color: var(--dark-shade--);
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 'Sorts Mill Goudy', serif;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.countdown__block h3 span {
+    color: var(--second-accent--);
+}
 .countdown-container .card {
     position: relative;
     width: 20vw;
@@ -1464,7 +1477,10 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--first-accent--);
+    margin: 0 6px;
+    background-color: #f0eae4;
+    border: none;
+    border-radius: 20px;
 }
 
 .countdown-container .time {
