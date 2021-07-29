@@ -1175,14 +1175,43 @@ textarea {
 }
 
 .articles {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 25px 0 0 0;
     padding: 0 15px;
 }
 
 .articles img {
     max-width: 375px;
-    max-height: 373px;
+    max-height: 373px; 
+    display: block;
+    width: 100%;
+}
+@media only screen and (max-width: 1170px) {
+  .article-second {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 25px 0 0 0;
+    padding: 0 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .articles {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 25px 0 0 0;
+    padding: 0 15px;
+  }
+  .article-second {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 .articles .articles_date {
