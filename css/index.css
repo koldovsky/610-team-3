@@ -1030,7 +1030,6 @@ textarea {
         height: auto;
         display: block;
 }
-}
 .gallery-title {
     font-family: 'Sorts Mill Goudy', serif;
     font-size: 54px;
@@ -1075,17 +1074,22 @@ textarea {
 .footer_column a:hover {
     color: #051F34;
 }
+
 .menu_link {
     text-align: center;
     background-image: url(../img/fon-menu-link.svg);
     background-size: cover;
-    background-position: innerit;
+    background-position: inherit;
     min-height: 120px;
     min-width: auto;
-    opacity: 0.5gi;
+    opacity: 0.5;
     padding: 50px 10px 10px 10px;
 }
-
+.logoSocial img {
+    max-width: 25px;
+    padding: 0px 5px 0px 0px;
+    filter: brightness(0%)
+}
 .menu_after_link {
     text-align: center;
     margin: 20px;
@@ -1106,11 +1110,7 @@ textarea {
     padding: 135px 10px 10px 10px;
     }
 }
-#social-items img {
-    max-width: 20px;
-    opacity: 1;
-    filter: grayscale(100%)
-}
+
 #social-items img:hover {
     filter: grayscale(0%);
 }
