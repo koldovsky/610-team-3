@@ -1030,6 +1030,7 @@ textarea {
         height: auto;
         display: block;
 }
+}
 .gallery-title {
     font-family: 'Sorts Mill Goudy', serif;
     font-size: 54px;
@@ -1037,14 +1038,12 @@ textarea {
     padding: 15px;
     text-align: center;
 }
-
 .footer_logo {
     margin: 20px;
     display: flex;
     justify-content: center;
     height: 64.3px;
 }
-
 .footer_column {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -1065,6 +1064,8 @@ textarea {
     color: rgba(68, 86, 101, 0.9);
     font-weight: bold;
     font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 .menu_store,
 .menu_address,
@@ -1080,22 +1081,21 @@ textarea {
     background-image: url(../img/fon-menu-link.svg);
     background-size: cover;
     background-position: inherit;
-    min-height: 120px;
+    max-height: 120px;
     min-width: auto;
-    opacity: 0.5;
     padding: 50px 10px 10px 10px;
 }
-.logoSocial img {
-    max-width: 25px;
-    padding: 0px 5px 0px 0px;
-    filter: brightness(0%)
-}
+
 .menu_after_link {
     text-align: center;
     margin: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     color: rgb(68, 86, 101);
+}
+#social-items img {
+    max-width: 25px;
+    padding-right: 7px;
 }
 
 @media(min-width: 760px) {
@@ -1104,15 +1104,19 @@ textarea {
         justify-content: space-evenly;
     }
     .menu_link {
-    background-position: innerit;
-    min-height: 240px;
-    min-width: auto;
-    padding: 135px 10px 10px 10px;
+    background-position: left;
+    max-height: 700px;
+    max-width: auto;
+    padding: 120px 0px 75px 0px;
     }
+    .logoSocial img {
+        max-width: 30px;
+            padding: 0px 5px 0px 0px;
+            filter: brightness(0%);
+        }
+        #social-items img:hover {
+            filter: grayscale(0%);
 }
-
-#social-items img:hover {
-    filter: grayscale(0%);
 }
 .news_and_articles {
     margin: 40px auto;
