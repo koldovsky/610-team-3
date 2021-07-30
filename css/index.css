@@ -973,7 +973,7 @@ textarea {
   font-size: 28px;
   border-bottom: 1px solid rgba(68, 86, 101, 0.3);
 }
-.active,
+.active-accordion,
 .accordion-visible {
     background-color: #F6F4F2; 
 }
@@ -988,7 +988,7 @@ textarea {
     margin-left: 5px;
 }
 
-.active,
+.active-accordion,
 .accordion-visible:hover {
     background-color: #d9b5a1;
     transition: linear 0.8s;
