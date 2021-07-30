@@ -994,7 +994,7 @@ textarea {
     transition: linear 0.8s;
 }
 
-.active:after {
+.active-accordion:after {
     content: "\2212";
     transition: max-height 0.3s cubic-bezier(0, 0, 0.33, 0.88);
 }
@@ -1109,10 +1109,10 @@ textarea {
 #social-items img {
     max-width: 20px;
     opacity: 1;
+    filter: grayscale(100%)
 }
 #social-items img:hover {
-    filter: color(#d9b5a1);
-
+    filter: grayscale(0%);
 }
 .news_and_articles {
     margin: 40px auto;
