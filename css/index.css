@@ -1518,9 +1518,16 @@ textarea {
     padding-left: 70px;
     padding-top: 170px;
 }
-
 .countdown__block {
     margin: 70px 0;
+    padding-top: 5vh;
+    padding-bottom: 12vh;
+    background-image: url('../img/countdown.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .countdown-container {
@@ -1539,6 +1546,7 @@ textarea {
     letter-spacing: 0.142em;
     font-weight: 900;
 }
+
 .countdown__block h3 {
     color: var(--dark-shade--);
     font-size: 60px;
@@ -1547,9 +1555,11 @@ textarea {
     text-align: center;
     margin-bottom: 5vh;
 }
+
 .countdown__block h3 span {
     color: var(--second-accent--);
 }
+
 .countdown-container .card {
     position: relative;
     width: 20vw;
@@ -1561,6 +1571,10 @@ textarea {
     background-color: #f0eae4;
     border: none;
     border-radius: 20px;
+}
+
+.countdown-container .card:hover {
+    opacity: 80%;
 }
 
 .countdown-container .time {
@@ -1581,7 +1595,6 @@ textarea {
     .countdown-container .time {
         font-size: 60px;
     }
-
     .countdown-container .card span {
         font-size: 12px;
     }
