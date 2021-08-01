@@ -1464,11 +1464,7 @@ textarea {
 
 /*.categories-block {}*/
 
-.nre {
-  margin: 0 0 0 0;
-  display: flex;
-  gap: 20px;
-}
+
 
 .ringcont {
   display: flex;
@@ -1712,20 +1708,30 @@ textarea {
   .products-block {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 10px;
   }
 }
 @media (min-width: 980px) {
   .products-block {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 10px;
   }
 }
 @media (min-width: 1200px) {
   .products-block {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 10px;
+  }
+}
+.nre{
+  width: 23%;
+}
+@media (min-width: 1100px){
+  .nre{
+    display: flex;
+    gap: 20px;
+    width: auto;
   }
 }
