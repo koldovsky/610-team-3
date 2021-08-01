@@ -57,32 +57,39 @@ const blockquotes = [
   "«Thanks for my new earrings! I still receive a huge number of compliments on my jewelry and I am happy to say that it is the Aurora brand.»",
 ];
 
+const activeTargetImage = document.querySelector(".quotes-current-slide");
+const activeTargetAutor = document.querySelector(".autors-slide");
+const activeTargetBlockquote = document.querySelector(".blockquote-slide");
+const activeFirstButton = document.querySelector(".first-quote");
+const activeSecondButton = document.querySelector(".second-quote");
+const activeThirdButton = document.querySelector(".third-quote");
+
 function showFirstSlide() {
-  const activeTargetImage = document.querySelector(".quotes-current-slide");
-  const activeTargetAutor = document.querySelector(".autors-slide");
-  const activeTargetBlockquote = document.querySelector(".blockquote-slide");
   activeTargetImage.src = quotesSlides[0];
   activeTargetAutor.innerText = quotesAutors[0];
   activeTargetBlockquote.innerText = blockquotes[0];
+  activeFirstButton.style.backgroundColor = "rgba(217, 181, 161, 1)";
+  activeSecondButton.style.backgroundColor = "rgba(217, 181, 161, 0.3)";
+  activeThirdButton.style.backgroundColor = "rgba(217, 181, 161, 0.3)";
 }
 showFirstSlide();
 
 function showSecondSlide() {
-  const activeTargetImage = document.querySelector(".quotes-current-slide");
-  const activeTargetAutor = document.querySelector(".autors-slide");
-  const activeTargetBlockquote = document.querySelector(".blockquote-slide");
   activeTargetImage.src = quotesSlides[1];
   activeTargetAutor.innerText = quotesAutors[1];
   activeTargetBlockquote.innerText = blockquotes[1];
+  activeFirstButton.style.backgroundColor = "rgba(217, 181, 161, 0.3)";
+  activeSecondButton.style.backgroundColor = "rgba(217, 181, 161, 1)";
+  activeThirdButton.style.backgroundColor = "rgba(217, 181, 161, 0.3)";
 }
 
 function showThirdSlide() {
-  const activeTargetImage = document.querySelector(".quotes-current-slide");
-  const activeTargetAutor = document.querySelector(".autors-slide");
-  const activeTargetBlockquote = document.querySelector(".blockquote-slide");
   activeTargetImage.src = quotesSlides[2];
   activeTargetAutor.innerText = quotesAutors[2];
   activeTargetBlockquote.innerText = blockquotes[2];
+  activeFirstButton.style.backgroundColor = "rgba(217, 181, 161, 0.3)";
+  activeSecondButton.style.backgroundColor = "rgba(217, 181, 161, 0.3)";
+  activeThirdButton.style.backgroundColor = "rgba(217, 181, 161, 1)";
 }
 document
   .querySelector(".first-quote")
