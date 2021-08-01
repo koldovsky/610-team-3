@@ -25,7 +25,6 @@ document
   .getElementById("Necklaces")
   .addEventListener("click", (ev) => openStore(ev, "Necklaces"));
 
-
 //timer
 
 let counter = -1;
@@ -100,3 +99,33 @@ document
 document
   .querySelector(".third-quote")
   .addEventListener("click", showThirdSlide);
+
+// Articles
+const modal1 = document.querySelector(".modal1");
+const modal2 = document.querySelector(".modal2");
+const modal3 = document.querySelector(".modal3");
+const btnCloseModal = document.querySelectorAll(".close-modal");
+const bntsShowModal = document.querySelectorAll(".show-modal");
+
+const closeModal = function () {
+  modal1.classList.add("hidden-article");
+  modal2.classList.add("hidden-article");
+  modal3.classList.add("hidden-article");
+};
+
+const openModal1 = function () {
+  modal1.classList.remove("hidden-article");
+};
+const openModal2 = function () {
+  modal2.classList.remove("hidden-article");
+};
+const openModal3 = function () {
+  modal3.classList.remove("hidden-article");
+};
+
+for (let i = 0; i < btnCloseModal.length; i++)
+  btnCloseModal[i].addEventListener("click", closeModal);
+
+bntsShowModal[0].addEventListener("click", openModal1);
+bntsShowModal[1].addEventListener("click", openModal2);
+bntsShowModal[2].addEventListener("click", openModal3);
