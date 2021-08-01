@@ -1728,10 +1728,22 @@ textarea {
 .nre{
   width: 23%;
 }
-@media (min-width: 1100px){
+.nre{
+  display: flex;
+  width: 1000px;
+  gap: 20px;
+}
+@media (max-width:1124px){
   .nre{
     display: flex;
+    width: 1000px;
     gap: 20px;
-    width: auto;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width:748px){
+  .nre{
+    width: 100px;
+    gap: 20px;
   }
 }
