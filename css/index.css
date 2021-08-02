@@ -1472,15 +1472,8 @@ textarea {
   display: flex;
   flex-wrap: wrap;
 }
-.our-colection-block__pre-title {
-}
-.our-colection-block__title {
-}
-.our-colection-block__text1 {
-}
-.our-colection-block__text2 {
-}
-.our-colection-block__btn a {
+
+.button3{
   font-weight: 700;
   font-size: 15px;
   background: var(--second-accent--);
@@ -1489,7 +1482,9 @@ textarea {
   margin: 0px 0px 0px 0px;
   text-decoration: none;
 }
-.our-colection-block__right {
+.button3:hover {
+  color: black;
+  background: #fff;
 }
 .our-colection-block__img {
 }
