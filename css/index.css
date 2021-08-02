@@ -1451,21 +1451,49 @@ textarea {
   cursor: pointer;
 }
 
-.collection-block {
-  background-image: url(../img/coll-back.webp);
-  background-size: 1800px;
-  background-repeat: no-repeat;
-  background-position: right;
-  width: 1500px;
-  height: 600px;
-  padding: 0px 1000px 0px 0px;
+
+.our-colection-block {
   margin: 100px 0px 100px 0px;
 }
-
+.our-colection-block__row {
+  background-image: url(../img/coll-back.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 0px 0px 0px;
+}
+.our-colection-block__left {
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.our-colection-block__pre-title {
+}
+.our-colection-block__title {
+}
+.our-colection-block__text1 {
+}
+.our-colection-block__text2 {
+}
+.our-colection-block__btn a {
+  font-weight: 700;
+  font-size: 15px;
+  background: var(--second-accent--);
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0px 0px 0px 0px;
+  text-decoration: none;
+}
+.our-colection-block__right {
+}
+.our-colection-block__img {
+}
 /*.categories-block {}*/
-
-
-
 .ringcont {
   display: flex;
 }
@@ -1510,11 +1538,13 @@ textarea {
 .limedi {
   font-family: "Sorts Mill Goudy", serif;
   font-size: 22px;
+  margin: 0px 0px 0px 0px;
 }
 
 .colp {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  margin: 0px 0px 20px 0px;
 }
 
 .button1 {
@@ -1523,7 +1553,7 @@ textarea {
   background: var(--second-accent--);
   color: #fff;
   padding: 10px 20px;
-  margin: 0px 0px 0px 0px;
+  margin: 50px;
   text-decoration: none;
 }
 
